@@ -4,6 +4,7 @@ import { daysBetween, fmtDay, relDays, todayIST } from '@/lib/dates';
 import { AOS_COURSE_ID, PERSONAS } from '@/lib/exam/aos';
 import { llmConfigured } from '@/lib/llm';
 import { StartButton, StartDrill } from './actions';
+import { getTerm, termLabel, termParam, TERMS } from '@/lib/term';
 
 export const dynamic = 'force-dynamic';
 export const metadata = { title: 'Exam prep · MESA Archive' };
@@ -12,9 +13,13 @@ type C = { id: string; short_title: string; term: string; chunks: string; topics
 
 export default async function ExamHome() {
   const today = todayIST();
+  const term = await getTerm();
+  const T = termParam(term);
   const [exams, courses, due, sessions, drills] = await Promise.all([
     q<{ title: string; starts_on: string; course_id: string | null }>(
-      `select title, starts_on::text, course_id from exams where profile_id=$1 and starts_on >= $2::date order by starts_on limit 5`, [PROFILE, today]),
+      `select e.title, e.starts_on::text, e.course_id from exams e left join courses c on c.id=e.course_id
+       where e.profile_id=$1 and e.starts_on >= $2::date and ($3='' or coalesce(c.term, case when e.starts_on < '2026-10-19' then 'Term 1' else 'Term 2' end)=$3)
+       order by e.starts_on limit 5`, [PROFILE, today, T]),
     q<C>(`select c.id, c.short_title, c.term,
             (select count(*) from doc_chunks d where d.course_id=c.id)::text chunks,
             (select count(*) from topics t where t.course_id=c.id)::text topics,
@@ -22,20 +27,20 @@ export default async function ExamHome() {
             (select count(*) from attempts a join exam_items i on i.id=a.item_id where i.course_id=c.id)::text attempts,
             (select avg(coalesce(a.score, case when a.correct then 1 else 0 end))::numeric(4,2)::text from attempts a join exam_items i on i.id=a.item_id where i.course_id=c.id) acc,
             (select count(*) from srs_state s join exam_items i on i.id=s.item_id where i.course_id=c.id and s.due_at <= now())::text due
-          from courses c where c.profile_id=$1 and exists (select 1 from doc_chunks d where d.course_id=c.id)
-          order by case c.term when 'Term 2' then 0 when 'Term 1' then 1 else 2 end, c.short_title`, [PROFILE]),
+          from courses c where c.profile_id=$1 and ($2='' or c.term=$2) and exists (select 1 from doc_chunks d where d.course_id=c.id)
+          order by case c.term when 'Term 2' then 0 when 'Term 1' then 1 else 2 end, c.short_title`, [PROFILE, T]),
     q<{ n: string }>(`select count(*)::text n from srs_state where profile_id=$1 and due_at <= now()`, [PROFILE]),
     q<{ id: string; title: string; score: string | null; max_score: string | null; started_at: string; finished_at: string | null }>(
       `select id, title, score::text, max_score::text, started_at::text, finished_at::text from exam_sessions where profile_id=$1 order by started_at desc limit 6`, [PROFILE]),
     q<{ id: string; persona: string; score: string | null; started_at: string; finished_at: string | null }>(
       `select id, persona, score::text, started_at::text, finished_at::text from drill_sessions where profile_id=$1 order by started_at desc limit 5`, [PROFILE]),
   ]);
-  const terms = ['Term 2', 'Term 1', 'Pre-Term'];
+  const terms = [...TERMS];
 
   return (
     <main className="stack">
       <div className="row">
-        <div><h1>Exam prep</h1><p className="muted">Questions are generated from each course’s own archived material and cite their sources. Spaced repetition brings back what you get wrong.</p></div>
+        <div><div className="eyebrow">{termLabel(term)}</div><h1>Exam prep</h1><p className="muted">Questions are generated from each course’s own archived material and cite their sources. Spaced repetition brings back what you get wrong.</p></div>
         <span className="spacer" />
         <StartButton mode="review" label={`Review due cards (${due[0]?.n ?? 0})`} primary disabled={!Number(due[0]?.n)} />
       </div>
@@ -52,12 +57,13 @@ export default async function ExamHome() {
         </div>
       )}
 
+      {courses.length === 0 && <div className="card"><p style={{ margin: 0 }}>No archived material to practise from for {termLabel(term)} yet. Questions appear once course files are synced.</p></div>}
       {terms.map((t) => courses.some((c) => c.term === t) && (
         <section key={t}>
-          <div className="section-head"><h2>{t}</h2></div>
+          {term === 'all' ? <div className="section-head"><h2>{t}</h2></div> : <div className="section-head"><h2>Courses</h2><span className="muted small">{courses.length}</span></div>}
           <div className="grid three">
             {courses.filter((c) => c.term === t).map((c) => (
-              <Link key={c.id} href={`/exam/${c.id}`} className="card" style={{ color: 'inherit', textDecoration: 'none' }}>
+              <Link key={c.id} href={`/exam/${c.id}`} className="card">
                 <h3>{c.short_title}</h3>
                 <div className="row small">
                   {Number(c.items) ? <span className="pill accent">{c.items} questions</span> : <span className="pill">no questions yet</span>}
@@ -77,6 +83,7 @@ export default async function ExamHome() {
         </section>
       ))}
 
+      {(term === 'all' || term === 'Term 1') && (
       <section className="card">
         <h2>The Art of Selling: paper and role-play drills</h2>
         <p className="small">Built on the course exam skill. The <strong>mock paper</strong> mirrors the SquadStack end-term’s written parts: concept MCQs (Part A), discovery questions (B1), a PSBA pitch (B3), two objections (B4) and a negotiation prep sheet (B5), graded against the course’s own tests and banned-word list. The 25-minute call (B2) is practised in a <strong>drill</strong>: the AI plays a buyer with hidden pains and a hidden blocker, and stays in character until you type END.</p>
@@ -93,6 +100,7 @@ export default async function ExamHome() {
           ))}
         </div>
       </section>
+      )}
 
       {(sessions.length > 0 || drills.length > 0) && (
         <section className="card">

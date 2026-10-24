@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { q, PROFILE } from '@/lib/db';
 import { fmtDay } from '@/lib/dates';
 import { pageHref } from '@/lib/links';
+import { getTerm, parseTerm, termParam, TERMS } from '@/lib/term';
 
 export const dynamic = 'force-dynamic';
 export const metadata = { title: 'Search · MESA Archive' };
@@ -11,10 +12,12 @@ type Hit = {
   page: number | null; rank: number; snip: string; hits: string;
 };
 
-export default async function Search({ searchParams }: { searchParams: Promise<{ q?: string; course?: string }> }) {
+export default async function Search({ searchParams }: { searchParams: Promise<{ q?: string; course?: string; term?: string }> }) {
   const sp = await searchParams;
   const query = (sp.q || '').trim().slice(0, 200);
   const course = sp.course || '';
+  const choice = parseTerm(sp.term) ?? (await getTerm());
+  const T = termParam(choice);
   const courses = await q<{ id: string; short_title: string; term: string }>(
     `select id, short_title, term from courses c where profile_id=$1 and exists (select 1 from doc_chunks d where d.course_id=c.id) order by term desc, short_title`, [PROFILE]);
 
@@ -22,41 +25,46 @@ export default async function Search({ searchParams }: { searchParams: Promise<{
   let broader: Hit[] = [];
   let other: { type: string; title: string; sub: string; href: string }[] = [];
   if (query) {
-    hits = await docSearch(query, course);
+    hits = await docSearch(query, course, T);
     // Few strict (all-words) matches: also show documents matching any of the words.
     const words = query.replace(/["()]/g, ' ').split(/\s+/).filter((w) => w.length > 2 && !/^(or|and|-.*)$/i.test(w));
     if (hits.length < 5 && words.length > 1) {
       const seen = new Set(hits.map((h) => h.storage_key));
-      broader = (await docSearch(words.join(' or '), course)).filter((h) => !seen.has(h.storage_key)).slice(0, 20);
+      broader = (await docSearch(words.join(' or '), course, T)).filter((h) => !seen.has(h.storage_key)).slice(0, 20);
     }
     const like = `%${query.replace(/[%_]/g, '')}%`;
     other = await q<{ type: string; title: string; sub: string; href: string }>(
       `select 'Recording' type, r.title || ' · ' || c.short_title title, coalesce(r.rec_date::text,'') sub, r.url href
-         from recordings r join courses c on c.id=r.course_id where r.profile_id=$1 and (r.title ilike $2 or c.title ilike $2) and ($3='' or r.course_id=$3)
+         from recordings r join courses c on c.id=r.course_id where r.profile_id=$1 and (r.title ilike $2 or c.title ilike $2) and ($3='' or r.course_id=$3) and ($4='' or c.term=$4)
        union all
        select 'Assignment', a.title, coalesce(a.due_date::text,'') || ' · ' || a.status, coalesce('/courses/'||a.course_id,'/timeline')
-         from assignments a where a.profile_id=$1 and a.title ilike $2 and ($3='' or a.course_id=$3)
+         from assignments a left join courses c on c.id=a.course_id where a.profile_id=$1 and a.title ilike $2 and ($3='' or a.course_id=$3) and ($4='' or coalesce(c.term,'Term 1')=$4)
        union all
        select 'Calendar', e.title, e.date::text || ' ' || e.start_time, '/timeline?from=' || e.date::text
-         from calendar_events e where e.profile_id=$1 and e.title ilike $2 and ($3='' or e.course_id=$3)
+         from calendar_events e where e.profile_id=$1 and e.title ilike $2 and ($3='' or e.course_id=$3) and ($4='' or e.term=$4)
        union all
        select 'Item', f.label || ' · ' || c.short_title, f.kind, '/courses/' || f.course_id
-         from files f join courses c on c.id=f.course_id where f.profile_id=$1 and f.label ilike $2 and ($3='' or f.course_id=$3)
-       limit 25`, [PROFILE, like, course]);
+         from files f join courses c on c.id=f.course_id where f.profile_id=$1 and f.label ilike $2 and ($3='' or f.course_id=$3) and ($4='' or c.term=$4)
+       limit 25`, [PROFILE, like, course, T]);
   }
 
   return (
     <main className="stack">
-      <h1>Search</h1>
-      <form className="row" action="/search">
+      <div className="page-head"><div><div className="eyebrow">Full text</div><h1>Search</h1>
+        <p>Every archived PDF, deck, document, sheet and note, OCR text of scans, and saved copies of linked Google files and Gamma decks.</p></div></div>
+      <form className="card searchbar" action="/search">
         <input type="search" name="q" defaultValue={query} placeholder='Try: mom test discovery, "contribution margin", deferred tax' style={{ flex: 3, minWidth: 220 }} autoFocus />
+        <select name="term" defaultValue={choice} style={{ flex: 1, minWidth: 130 }}>
+          {TERMS.map((t) => <option key={t} value={t}>{t}</option>)}
+          <option value="all">All terms</option>
+        </select>
         <select name="course" defaultValue={course} style={{ flex: 1, minWidth: 160 }}>
           <option value="">All courses</option>
-          {courses.map((c) => <option key={c.id} value={c.id}>{c.short_title} ({c.term})</option>)}
+          {courses.filter((c) => !T || c.term === T).map((c) => <option key={c.id} value={c.id}>{c.short_title}{T ? '' : ` (${c.term})`}</option>)}
         </select>
         <button className="btn primary" type="submit">Search</button>
       </form>
-      <p className="muted small">Searches the full text of every archived PDF, deck, document, sheet and note, plus OCR text of scanned PDFs and the saved copies of Google Docs/Slides/Sheets and Gamma decks. Use quotes for exact phrases, <code>-word</code> to exclude, <code>or</code> for either.</p>
+      <p className="muted small">Use quotes for exact phrases, <code>-word</code> to exclude, <code>or</code> for either.</p>
 
       {query && (
         <section className="card">
@@ -88,7 +96,7 @@ export default async function Search({ searchParams }: { searchParams: Promise<{
   );
 }
 
-async function docSearch(query: string, course: string) {
+async function docSearch(query: string, course: string, term: string) {
   return q<Hit>(
     `with qq as (select websearch_to_tsquery('english', $2) tq),
      ranked as (
@@ -100,7 +108,7 @@ async function docSearch(query: string, course: string) {
             r.source_kind, r.is_ocr, r.page, r.rank, r.hits::text,
             ts_headline('english', r.content, (select tq from qq), 'MaxFragments=2,MaxWords=28,MinWords=12,FragmentDelimiter= … ,StartSel=<mark>,StopSel=</mark>') snip
      from ranked r join courses c on c.id=r.course_id left join files f on f.id=r.file_id
-     where r.rn=1 order by r.rank desc limit 40`, [PROFILE, query, course]);
+     where r.rn=1 and ($4 = '' or c.term = $4) order by r.rank desc limit 40`, [PROFILE, query, course, term]);
 }
 
 function HitRow({ h }: { h: Hit }) {

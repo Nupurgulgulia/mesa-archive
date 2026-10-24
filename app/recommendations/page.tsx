@@ -9,10 +9,11 @@ export default async function Recommendations() {
   const areas = [...new Set(recos.map((r) => r.area))];
   return (
     <main className="stack">
-      <div>
+      <div className="page-head" style={{ marginBottom: 0 }}><div>
+        <div className="eyebrow">Right now</div>
         <h1>Getting the most out of MESA</h1>
-        <p className="muted">Worked out from your deadlines, MRS, attendance, calendar and notices each time you open this page. Red is this week, amber is soon or needs a decision, green is worth doing.</p>
-      </div>
+        <p>Worked out from your deadlines, MRS, attendance, calendar and notices each time you open this page. Red is this week, amber is soon or needs a decision, green is worth doing.</p>
+      </div></div>
       <div className="row small">{areas.map((a) => <a key={a} href={`#${a}`} className="pill">{a}</a>)}</div>
       {areas.map((area) => (
         <section key={area} id={area} className="card">

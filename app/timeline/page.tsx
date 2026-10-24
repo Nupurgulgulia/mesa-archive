@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { q, PROFILE } from '@/lib/db';
 import { fmtDate, todayIST } from '@/lib/dates';
+import { getTerm, parseTerm, termLabel, termParam } from '@/lib/term';
 
 export const dynamic = 'force-dynamic';
 export const metadata = { title: 'Timeline · MESA Archive' };
@@ -16,7 +17,8 @@ const DEFAULT_KINDS = ['class', 'exam', 'event', 'holiday', 'assignment', 'notic
 export default async function Timeline({ searchParams }: { searchParams: Promise<{ term?: string; when?: string; kind?: string | string[]; from?: string }> }) {
   const sp = await searchParams;
   const today = todayIST();
-  const term = sp.term || '';
+  const choice = parseTerm(sp.term) ?? (await getTerm());
+  const term = termParam(choice);
   const when = sp.when || 'all';
   const kinds = sp.kind ? (Array.isArray(sp.kind) ? sp.kind : [sp.kind]) : DEFAULT_KINDS;
 
@@ -26,7 +28,7 @@ export default async function Timeline({ searchParams }: { searchParams: Promise
          from calendar_events where profile_id=$1
        union all
        select a.due_date, null, 'assignment', a.title, coalesce(c.short_title, a.course) || ' · ' || a.status || coalesce(' · marks ' || a.marks, ''),
-              case when a.due_date < '2026-10-19' then 'Term 1' else 'Term 2' end, case when a.course_id is not null then '/courses/'||a.course_id end
+              coalesce(c.term, case when a.due_date < '2026-10-19' then 'Term 1' else 'Term 2' end), case when a.course_id is not null then '/courses/'||a.course_id end
          from assignments a left join courses c on c.id=a.course_id where a.profile_id=$1 and a.due_date is not null
        union all
        select posted_on, null, 'notice', title, category || ' · ' || body, case when posted_on < '2026-10-19' then 'Term 1' else 'Term 2' end, null
@@ -50,27 +52,30 @@ export default async function Timeline({ searchParams }: { searchParams: Promise
 
   const days = [...new Set(rows.map((r) => r.date))];
   const counts = await q<{ kind: string; n: string }>(
-    `select kind, count(*) n from calendar_events where profile_id=$1 and date < $2::date group by kind`, [PROFILE, today]);
+    `select kind, count(*) n from calendar_events where profile_id=$1 and ($3='' or term=$3) and date < $2::date group by kind`, [PROFILE, today, term]);
   const past = Object.fromEntries(counts.map((c) => [c.kind, Number(c.n)]));
 
   return (
     <main className="stack">
-      <h1>Timeline</h1>
-      <p className="muted">Everything at MESA so far and what’s coming: {past.class ?? 0} classes, {past.event ?? 0} events and {past.exam ?? 0} exam slots behind you.</p>
-      <form className="card" action="/timeline">
+      <div className="page-head">
+        <div>
+          <div className="eyebrow">{termLabel(choice)}</div>
+          <h1>Timeline</h1>
+          <p>{past.class ?? 0} classes, {past.event ?? 0} events and {past.exam ?? 0} exam slots behind you{term ? ` in ${term}` : ''}, and what’s coming.</p>
+        </div>
+      </div>
+      <form className="card filters" action="/timeline">
         <div className="row">
-          <select name="term" defaultValue={term} style={{ width: 'auto' }}>
-            <option value="">All terms</option><option>Term 1</option><option>Term 2</option>
-          </select>
           <select name="when" defaultValue={when} style={{ width: 'auto' }}>
             <option value="all">Past and upcoming</option><option value="upcoming">Upcoming</option><option value="past">Past (newest first)</option>
           </select>
           <button className="btn primary small" type="submit">Apply</button>
           <a href="#today" className="btn small">Jump to today</a>
+          <span className="spacer" /><span className="muted small">Term: change it in the sidebar</span>
         </div>
-        <div className="row small" style={{ marginTop: 10 }}>
+        <div className="chips">
           {KINDS.map(([k, label]) => (
-            <label key={k} className="row" style={{ gap: 4, fontWeight: 400 }}>
+            <label key={k} className="chip">
               <input type="checkbox" name="kind" value={k} defaultChecked={kinds.includes(k)} /> {label}
             </label>
           ))}
