@@ -1,0 +1,134 @@
+2026-09-21 09:30-11:00 AI and its Application by Mihirr Sose
+2026-09-21 11:30-13:00 Power of Communication - Conflict Management with Vineeta
+2026-09-21 14:00-15:30 Business Reader with Suprad
+2026-09-21 16:00-17:30 Power of Communication with Chirantan
+2026-09-21 18:00-19:00 Working Session: BYOB Reflection
+2026-09-21 19:00-20:00 Study Block & Office Hours
+2026-09-22 09:30-11:00 Fundamentals of Finance with Prof. Narahari
+2026-09-22 11:30-13:00 Entrepreneurship 101 with Abhishek
+2026-09-22 14:00-15:30 Cracking Case Competitions - Parth
+2026-09-22 16:00-17:30 Fundamentals of Finance with Prof. Narahari
+2026-09-22 17:30-20:00 Entrepreneurship Building Time
+2026-09-23 09:30-11:00 Entrepreneurship 101 with Abhishek
+2026-09-23 11:30-13:00 AI and its Application by Mihirr Sose
+2026-09-23 14:00-15:30 Startup Leader Session | Nishant Das from Cheerio AI
+2026-09-23 16:30-18:30 Life@Mesa
+2026-09-24 09:30-11:00 Fundamentals of Finance with Prof. Narahari
+2026-09-24 11:30-13:00 Data Driven Decision Making with Vinay Sharma
+2026-09-24 14:00-16:00 AI Building Time
+2026-09-24 16:00-17:30 Crafting Marketing Strategies with Siddarth Menon
+2026-09-24 18:00-19:00 Open Doubt Clearing Session
+2026-09-25 09:30-11:00 Business Frameworks with Pranjal Bangani
+2026-09-25 11:30-13:00 Data Driven Decision Making with Vinay Sharma
+2026-09-25 13:00-14:00 Open Doubt Clearing Session | Pranjal
+2026-09-25 14:00-18:00 AI Building Time
+2026-09-25 18:00-20:00 "What Is" Panel - Decoding Growth
+2026-09-26 09:30-11:00 The Art of Selling with Rishabh Ladha
+2026-09-26 11:30-13:00 Business Frameworks with Pranjal Bangani
+2026-09-26 13:00-14:00 Open Doubt Clearing Session | Pranjal
+2026-09-26 16:00-17:30 Data Driven Decision Making with Vinay Sharma
+2026-09-28 09:30-11:00 Power of Communication with Chirantan
+2026-09-28 11:30-13:00 AI and its Application
+2026-09-28 14:00-15:30 Power of Communication with Chirantan
+2026-09-28 16:00-17:30 Business Reader with Suprad
+2026-09-28 18:00-20:00 Study Block
+2026-09-29 09:30-11:00 Entrepreneurship 101 with Abhishek
+2026-09-29 11:30-13:00 Power of Communication | Personal Branding with Ananya
+2026-09-29 14:45-15:45 Business Frameworks (Counted for MRS)
+2026-09-29 16:00-17:30 AI Building Time
+2026-09-29 18:00-20:00 Study Block
+2026-09-30 09:30-11:00 Data Driven Decision Making with Vinay Sharma
+2026-09-30 11:30-13:00 Entrepreneurship 101 with Abhishek
+2026-09-30 14:00-15:30 Startup Leader | Vaibhav Raj Gupta - Airblack
+2026-09-30 14:00-15:30 Startup Leader | Aman Tomar - Spiny
+2026-09-30 16:30-18:00 How to Build a Billion-Dollar AI Company by Sai
+2026-09-30 18:00-19:00 Open Doubt Clearing Session
+2026-10-01 09:30-19:00 Building Time
+2026-10-01 19:00-21:00 What Is? Session 1
+2026-10-02 09:30-20:00 Holiday Gandhi Jayanti
+2026-10-03 09:30-11:00 The Art of Selling with Rishabh Ladha
+2026-10-03 11:30-13:00 Business Frameworks with Pranjal Bangani
+2026-10-03 13:00-14:00 Open Doubt Clearing Session | Pranjal
+2026-10-03 14:00-17:30 Building Time
+2026-10-03 16:00-17:30 AI Building Time
+2026-10-03 18:00-20:00 Study Block
+2026-10-05 09:30-11:00 Power of Communication with Chirantan
+2026-10-05 11:30-13:00 Entrepreneurship 101 with Abhishek
+2026-10-05 14:00-15:30 Business Reader with Suprad
+2026-10-05 16:00-17:30 Building Time
+2026-10-06 09:30-11:00 Crafting Marketing Strategies with Siddarth Menon
+2026-10-06 11:30-13:00 Entrepreneurship 101 with Abhishek
+2026-10-06 14:00-15:30 Entrepreneurship Building Time
+2026-10-06 16:00-17:30 Power of Communication | Personal Branding with Ananya
+2026-10-07 09:30-11:00 Crafting Marketing Strategies with Siddarth Menon
+2026-10-07 11:30-13:00 AI and its Application
+2026-10-07 14:00-15:30 How to Crack Case Studies - Varun Kashyap
+2026-10-07 16:30-18:00 Finding Your Co-Founder (And Your Unfair Advantage) by Siddharth Chauhan
+2026-10-07 18:00-20:00 Study Block
+2026-10-08 09:30-11:00 Data Driven Decision Making with Vinay Sharma
+2026-10-08 12:00-14:00 Fundamentals of Finance with Prof. Narahari
+2026-10-08 14:00-16:30 AI Building Time
+2026-10-08 16:30-19:00 Crafting Marketing Strategies | Final Presentation & Viva
+2026-10-08 19:00-20:00 Study Block
+2026-10-09 09:30-11:00 AI and its Application
+2026-10-09 11:30-13:00 Business Frameworks with Pranjal Bangani
+2026-10-09 13:00-14:00 Open Doubt Clearing Session | Pranjal
+2026-10-09 14:00-18:00 Life@Mesa
+2026-10-09 18:00-20:00 "What Is" Panel - Sales and Partnerships
+2026-10-10 09:30-11:00 The Art of Selling with Rishabh Ladha
+2026-10-10 11:30-13:00 Business Frameworks with Pranjal Bangani
+2026-10-10 13:00-14:00 Open Doubt Clearing Session | Pranjal
+2026-10-10 14:00-15:30 Building Time
+2026-10-10 16:00-17:30 AI Building Time
+2026-10-10 18:00-20:00 Study Block
+2026-10-12 09:30-19:00 Exam Prep
+2026-10-13 09:30-11:00 AI and its Application
+2026-10-13 11:30-13:00 Business Reader with Suprad
+2026-10-13 14:00-16:00 Term 2 Academic Orientation & Awards
+2026-10-13 16:30-18:00 ILS & BSL Orientation
+2026-10-13 18:30-20:30 "What is" - for Ops & Supply Chain
+2026-10-14 09:30-11:00 Data Driven Decision Making with Vinay Sharma
+2026-10-14 11:30-13:00 AI and its Application
+2026-10-14 14:00-19:00 Exam Prep
+2026-10-14 19:00-20:00 Open Doubt Clearing Session
+2026-10-15 09:30-13:00 End Prep
+2026-10-15 14:00-20:00 AI Implementation & Viva
+2026-10-16 09:30-10:00 Crafting Marketing Strategies | End Term Exam
+2026-10-16 10:30-11:30 Business Frameworks | End Term Exam
+2026-10-16 12:00-13:00 Business Reader | End Term Exam
+2026-10-16 14:00-15:30 Data Driven Decision Making | End Term Exam
+2026-10-16 15:30-19:30 Garba Night
+2026-10-17 09:30-19:30 Term Break
+2026-10-18 09:30-19:30 Term Break
+2026-10-19 09:30-11:00 Data 102 with Vinay
+2026-10-19 11:30-13:00 Business Metrics and Mindset with Meet Kotak
+2026-10-19 14:00-20:00 Building Time
+2026-10-20 09:30-11:00 Business Metrics and Mindset with Meet Kotak
+2026-10-20 11:30-13:00 First Principles Lab with Pranjal
+2026-10-20 14:00-20:00 Life @ Mesa
+2026-10-21 09:30-11:00 AI with Mihirr Sose
+2026-10-21 11:30-13:00 Business Metrics and Mindset with Meet Kotak
+2026-10-21 14:00-15:30 Startup Leader Session
+2026-10-21 16:00-20:00 ILS Building Time
+2026-10-22 09:30-11:00 Data 102 with Vinay
+2026-10-22 11:30-13:00 AI with Mihirr Sose
+2026-10-22 14:00-15:30 First Principles Lab with Pranjal
+2026-10-22 16:00-17:30 AI Building Time with Mihirr
+2026-10-22 18:00-20:30 "What is" Panel
+2026-10-23 09:30-11:00 AI with Mihirr Sose
+2026-10-23 11:30-13:00 SQL with Ziyaad
+2026-10-23 14:00-20:00 ILS Building Time
+2026-10-24 09:30-11:00 SQL with Ziyaad
+2026-10-24 11:30-13:00 Business Metrics and Mindset with Meet Kotak
+2026-10-24 14:00-15:30 Growth with Arshia
+2026-10-24 16:00-17:30 First Principles Lab with Pranjal
+2026-10-26 09:30-20:00 Ops Week
+2026-10-27 09:30-20:00 Ops Week
+2026-10-28 09:30-20:00 Ops Week
+2026-10-29 09:30-20:00 Ops Week
+2026-10-30 09:30-20:00 Ops Week
+2026-10-31 09:30-11:00 First Principles Lab with Pranjal
+2026-10-31 11:30-13:00 B2B Sales: Signal to Signed with Parikshit
+2026-10-31 14:00-15:30 Business Metrics and Mindset with Meet Kotak
+2026-10-31 16:00-17:30 Growth with Arshia
+2026-10-31 17:30-20:00 Life @ Mesa

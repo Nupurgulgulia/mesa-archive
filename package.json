@@ -1,0 +1,45 @@
+{
+  "name": "mesa-archive",
+  "private": true,
+  "description": "Private MESA archive, exam prep and timeline (Next.js + Neon)",
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1",
+    "build": "next build",
+    "start": "next start -H 127.0.0.1 -p 3000",
+    "typecheck": "tsc --noEmit",
+    "set-password": "node scripts/set-password.js",
+    "migrate": "node scripts/migrate.js",
+    "load": "node scripts/load-db.js",
+    "verify-notes": "node scripts/verify-notes.js",
+    "mirror": "node scripts/mirror-local.js",
+    "extract-text": "node scripts/extract-text.js",
+    "ocr": "node scripts/ocr-docs.js",
+    "export-links": "node scripts/export-links.js",
+    "generate": "tsx scripts/generate-questions.ts",
+    "sync": "tsx scripts/sync.ts"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.65",
+    "jszip": "^3.10.1",
+    "mammoth": "^1.8.0",
+    "next": "^15.3.3",
+    "pdfjs-dist": "^4.10.38",
+    "pg": "^8.13.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "server-only": "^0.0.1",
+    "tesseract.js": "^5.1.1"
+  },
+  "allowScripts": {
+    "tesseract.js": false,
+    "esbuild@0.25.12": true,
+    "sharp@0.34.5": true
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "@types/pg": "^8.15.4",
+    "@types/react": "^19.1.6",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

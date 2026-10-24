@@ -1,0 +1,1590 @@
+{
+  "folders": [],
+  "objects": [
+    {
+      "key": "Pre-Term/Start Strong/Resources/MSL Resources/MSL Session Recordings.note.json",
+      "size": 206,
+      "last_modified": "2026-10-20T05:52:20Z",
+      "etag": "d23bff562035a41fef9ed7451aa8f6e8"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/MSL Resources/PGP-How to Get and Evaluate Ideas_Workshop_vS.pdf",
+      "size": 4084219,
+      "last_modified": "2026-10-20T05:52:15Z",
+      "etag": "09bc9a82d3513a6bf3fc21dac15d2b85"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Other files/Activity.note.json",
+      "size": 9829,
+      "last_modified": "2026-10-20T05:52:33Z",
+      "etag": "11a3d6d76d37ecc9694d01eb05780462"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Other files/Effective reading, summarising, and building a POV.note.json",
+      "size": 9871,
+      "last_modified": "2026-10-20T05:52:28Z",
+      "etag": "bbaaccfb6db4a3d91b11889e707dfa00"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Supplementary Resources/Supplementary Resources.pdf",
+      "size": 173574,
+      "last_modified": "2026-10-20T05:52:04Z",
+      "etag": "8b72d8c6208d791effce61475f7acaf7"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 1 - Primer/Activity.note.json",
+      "size": 9829,
+      "last_modified": "2026-10-20T05:49:03Z",
+      "etag": "808e3fe7ce1b528aee8b3d38bdeca257"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 1 - Primer/Effective reading, summarizing, and building a POV.note.json",
+      "size": 9871,
+      "last_modified": "2026-10-20T05:48:59Z",
+      "etag": "dc161fcc1166a23b28b1d8199e12f7d4"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 10 - Basic Statistics/Basic Statistics Cheat Sheet.pdf",
+      "size": 75849,
+      "last_modified": "2026-10-20T05:51:24Z",
+      "etag": "ec9eb933f660351f406a66a9a71ffe91"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 10 - Basic Statistics/Basic Statistics.note.json",
+      "size": 4230,
+      "last_modified": "2026-10-20T05:51:17Z",
+      "etag": "0769a6a7a022e83ebbb3255614017016"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 11 - Basic Product Management/Basic Product Management Cheat Sheet.pdf",
+      "size": 82223,
+      "last_modified": "2026-10-20T05:51:39Z",
+      "etag": "3b1f14d5e5273c8242e849a1e0074a58"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 11 - Basic Product Management/Basic Product Management.note.json",
+      "size": 2877,
+      "last_modified": "2026-10-20T05:51:32Z",
+      "etag": "f0ec68d5bf491b8ab20cea48a6addd9e"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 12 - Guesstimates/Data Analytics and Insights Cheat Sheet.pdf",
+      "size": 84532,
+      "last_modified": "2026-10-20T05:51:54Z",
+      "etag": "983f56f3becbc96f01df026fa2c9ba4f"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 12 - Guesstimates/Guesstimates.note.json",
+      "size": 3377,
+      "last_modified": "2026-10-20T05:51:47Z",
+      "etag": "8ee435937dbd728347a6618e3dd6dfea"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 2 - Startup Awareness/If You’re a Movie Buff….note.json",
+      "size": 6519,
+      "last_modified": "2026-10-20T05:49:16Z",
+      "etag": "9eb5b1a8d99cb2a9b397b9f49129a3bd"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 2 - Startup Awareness/Startup Awareness.note.json",
+      "size": 6509,
+      "last_modified": "2026-10-20T05:49:11Z",
+      "etag": "a11930b780f88ca3c5e8d39d947da5a8"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 2 - Startup Awareness/Startup Terms to Know.note.json",
+      "size": 6513,
+      "last_modified": "2026-10-20T05:49:21Z",
+      "etag": "5184f27a133eb63449a588431c916232"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 3 - Basic AI/Basic AI.note.json",
+      "size": 8253,
+      "last_modified": "2026-10-20T05:49:29Z",
+      "etag": "7784c3137056fb356b1e7f9c5765df55"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 3 - Basic AI/Pre-term live- Building an AI-native career with Kanishk Mehta.note.json",
+      "size": 8308,
+      "last_modified": "2026-10-20T05:49:34Z",
+      "etag": "5a63b28a913f4997443f101ba9674d96"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 4 - Basic Marketing/Basic Marketing Cheat Sheet.pdf",
+      "size": 114181,
+      "last_modified": "2026-10-20T05:49:54Z",
+      "etag": "5b763d184cde5e20fcdad7f4411e3db0"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 4 - Basic Marketing/Basic Marketing.note.json",
+      "size": 9563,
+      "last_modified": "2026-10-20T05:49:42Z",
+      "etag": "ad0ea4ba394dd32c2b6bb6cb64640253"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 4 - Basic Marketing/If You’re a Movie Buff….note.json",
+      "size": 9575,
+      "last_modified": "2026-10-20T05:49:47Z",
+      "etag": "6b3a70f959f45a212407cf0ea591a85d"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 5 - Basic Economics/Basic Economics Cheat Sheet.pdf",
+      "size": 76955,
+      "last_modified": "2026-10-20T05:50:09Z",
+      "etag": "b2cec14f8fb75ce51b4a88cc16727048"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 5 - Basic Economics/Basic Economics.note.json",
+      "size": 5657,
+      "last_modified": "2026-10-20T05:50:02Z",
+      "etag": "6df1224d769d4e500ca1bed090f42146"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 6 - Basic Accounting/Basic Accounting Cheat Sheet.pdf",
+      "size": 90298,
+      "last_modified": "2026-10-20T05:50:24Z",
+      "etag": "7ba2703cf9678ef7df2c4849ea7e843c"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 6 - Basic Accounting/Basic Accounting Concepts.note.json",
+      "size": 8116,
+      "last_modified": "2026-10-20T05:50:17Z",
+      "etag": "2b21cccbadd5c6cf0ade6967495a9d28"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 7 - Basic Finance/Basic Finance Cheat Sheet.pdf",
+      "size": 124106,
+      "last_modified": "2026-10-20T05:50:39Z",
+      "etag": "8c1663a274af6d61f83b4ab733528c52"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 7 - Basic Finance/Basic Finance.note.json",
+      "size": 8491,
+      "last_modified": "2026-10-20T05:50:32Z",
+      "etag": "7ebe9ce4ad173508fee0c1b65475e1f2"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 8 - Google Sheets/Google Sheets Cheat Sheet.pdf",
+      "size": 108965,
+      "last_modified": "2026-10-20T05:50:54Z",
+      "etag": "8b61ba9a9ca3bebff8f9ebd3304675d3"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 8 - Google Sheets/Google Sheets.note.json",
+      "size": 4585,
+      "last_modified": "2026-10-20T05:50:47Z",
+      "etag": "ba571bd5cd5b156936d03ba2b3a54657"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 9 - Data Analytics and Insights/Data Analytics and Insights Cheat Sheet.pdf",
+      "size": 84532,
+      "last_modified": "2026-10-20T05:51:09Z",
+      "etag": "983f56f3becbc96f01df026fa2c9ba4f"
+    },
+    {
+      "key": "Pre-Term/Start Strong/Resources/Week 9 - Data Analytics and Insights/Data Analytics and Insights.note.json",
+      "size": 3012,
+      "last_modified": "2026-10-20T05:51:02Z",
+      "etag": "6b6a1e35779916e293333d09d1bcf3ee"
+    },
+    {
+      "key": "Term 1/AI Workshops/Resources/AI Hackathon/Productivity_Leverage_Challenge_Student.pdf",
+      "size": 104566,
+      "last_modified": "2026-10-20T06:04:05Z",
+      "etag": "979821361932d95bd1a97a3cbf7a46eb"
+    },
+    {
+      "key": "Term 1/AI Workshops/Resources/Aravind's Session/Mesa_Alumni_Session_Condensed.pdf",
+      "size": 715944,
+      "last_modified": "2026-10-20T06:03:34Z",
+      "etag": "3a9438aa549fe29cbd0dc0cdc57d69a0"
+    },
+    {
+      "key": "Term 1/AI Workshops/Resources/Harkirat's Session/Ideas_ AI automation flows with Gumloop.xlsx",
+      "size": 7219,
+      "last_modified": "2026-10-20T06:03:50Z",
+      "etag": "500ec06a4aa24205a29bd3bba50f8057"
+    },
+    {
+      "key": "Term 1/AI Workshops/Resources/Harkirat's Session/gumloop-session-pre-read.pdf",
+      "size": 65873,
+      "last_modified": "2026-10-20T06:03:41Z",
+      "etag": "702b759207bb384a85be9fa51b758498"
+    },
+    {
+      "key": "Term 1/AI Workshops/Resources/Harkirat's Session/linkedin signal agent prompt.docx",
+      "size": 12696,
+      "last_modified": "2026-10-20T06:03:45Z",
+      "etag": "7c4333152c1664a896628ed4707ec27e"
+    },
+    {
+      "key": "Term 1/AI Workshops/Resources/Sumanyu's Session/AI.pdf",
+      "size": 2695956,
+      "last_modified": "2026-10-20T06:03:57Z",
+      "etag": "5dc5bc0e0a38887adf1db68512ce3117"
+    },
+    {
+      "key": "Term 1/AI and its Application/Divij's Resources/End of Session Material/AI_and_Its_Application_Digital_Notes (1).docx",
+      "size": 41165,
+      "last_modified": "2026-10-20T05:59:59Z",
+      "etag": "fb2b7ea566e05b08a67e616d72d6a13c"
+    },
+    {
+      "key": "Term 1/AI and its Application/Divij's Resources/Other files/Session - 1 - 6.note.json",
+      "size": 632,
+      "last_modified": "2026-10-20T06:00:07Z",
+      "etag": "0b1f541bd5856771642f8297c9a781e3"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 1 - Session 2/MESA Pre-Read_ Vercel Account Setup.pdf",
+      "size": 413328,
+      "last_modified": "2026-10-20T05:57:50Z",
+      "etag": "557d008c3c24aa822294f92047851e7a"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 1 - Session 2/MESA_Lecture 2_Connect-Test-Deploy.pdf",
+      "size": 1279955,
+      "last_modified": "2026-10-20T05:57:57Z",
+      "etag": "415e53ff75b8c0d3ab8b68d625f1d2bf"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 1 - Session 3/1_MESA_Case 01_Solution Template.docx",
+      "size": 10334,
+      "last_modified": "2026-10-20T05:57:12Z",
+      "etag": "a37ca607973a59b173e609480f2e39f5"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 1 - Session 3/2_MESA_Case 01_Solution Template.docx",
+      "size": 10334,
+      "last_modified": "2026-10-20T05:57:19Z",
+      "etag": "a37ca607973a59b173e609480f2e39f5"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 1 - Session 3/3_MESA_Case 01_Solution Template.docx",
+      "size": 10334,
+      "last_modified": "2026-10-20T05:57:26Z",
+      "etag": "a37ca607973a59b173e609480f2e39f5"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 1 - Session 3/4_MESA_Case 01_Solution Template.docx",
+      "size": 10334,
+      "last_modified": "2026-10-20T05:57:33Z",
+      "etag": "a37ca607973a59b173e609480f2e39f5"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 1 - Session 3/5_MESA_Case 01_Solution Template.docx",
+      "size": 10334,
+      "last_modified": "2026-10-20T05:57:40Z",
+      "etag": "a37ca607973a59b173e609480f2e39f5"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 1 - Session 3/MESA_Case 01_Problem Statement.pdf",
+      "size": 84387,
+      "last_modified": "2026-10-20T05:56:58Z",
+      "etag": "a438735c94274cc49d9631a8f54e4d44"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 1 - Session 3/MESA_Case 01_Solution Template.docx",
+      "size": 10334,
+      "last_modified": "2026-10-20T05:57:06Z",
+      "etag": "a37ca607973a59b173e609480f2e39f5"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 2 - Session 1/1_MESA_Case 02_Components Map.png",
+      "size": 1086970,
+      "last_modified": "2026-10-20T05:58:35Z",
+      "etag": "118990c3a35f92b62095816764a8c971"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 2 - Session 1/2_MESA_Case 02_Components Map.png",
+      "size": 1086970,
+      "last_modified": "2026-10-20T05:58:43Z",
+      "etag": "118990c3a35f92b62095816764a8c971"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 2 - Session 1/MESA_Case 02_Components Map.png",
+      "size": 1086970,
+      "last_modified": "2026-10-20T05:58:27Z",
+      "etag": "118990c3a35f92b62095816764a8c971"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 2 - Session 1/MESA_Case02_Problem_Statement (1).pdf",
+      "size": 106423,
+      "last_modified": "2026-10-20T05:58:20Z",
+      "etag": "5344ccbe21fbcc96d3ebf81d620ba408"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 2 - Session 1/Seed Data - Hires.note.json",
+      "size": 869,
+      "last_modified": "2026-10-20T05:58:14Z",
+      "etag": "461f6d37380d381fa3b58f65f594d107"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 2 - Session 1/Seed Data - JDs.note.json",
+      "size": 867,
+      "last_modified": "2026-10-20T05:58:10Z",
+      "etag": "0e3125ba2bf299262d80bb979af62646"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 2 - Session 1/Seed Data - Resumes.note.json",
+      "size": 871,
+      "last_modified": "2026-10-20T05:58:06Z",
+      "etag": "1fe9402b7499b2f73d2aeabc57295a91"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 3/1_Vaani Platform Invite codes for Mesa.xlsx",
+      "size": 12918,
+      "last_modified": "2026-10-20T05:59:08Z",
+      "etag": "ecadb31ada2daad951193500bdbd5389"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 3/MESA_Case 03_Problem Statement.pdf",
+      "size": 88641,
+      "last_modified": "2026-10-20T05:58:54Z",
+      "etag": "017774b1c3bbae62ebb55e75cdfda3d5"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 3/Vaani Platform Invite codes for Mesa.xlsx",
+      "size": 12918,
+      "last_modified": "2026-10-20T05:59:01Z",
+      "etag": "ecadb31ada2daad951193500bdbd5389"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 4/MESA_Case 04_Pre-read_OAuth Setup.pdf",
+      "size": 4235314,
+      "last_modified": "2026-10-20T05:59:19Z",
+      "etag": "9069e6f4552e53fb172bdae1267bf347"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Case Study 4/MESA_Case 04_Problem Statement.pdf",
+      "size": 141019,
+      "last_modified": "2026-10-20T05:59:28Z",
+      "etag": "5a180d4b39e98a567e75cf54a88a81db"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Miscellaneous Decks/MESA_L7_What Next_Deck.pdf",
+      "size": 2128815,
+      "last_modified": "2026-10-20T05:59:47Z",
+      "etag": "84bf9978108a8cfe8121c4ed6cef597a"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Miscellaneous Decks/MESA_L8_Build your Portfolio.pdf",
+      "size": 1540362,
+      "last_modified": "2026-10-20T05:59:38Z",
+      "etag": "948bbaafd21e03dac91cce517396a85e"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Session 1 - Claude 101/1_MESA_Lecture 1_Build Prompt.pdf",
+      "size": 3247846,
+      "last_modified": "2026-10-20T05:56:20Z",
+      "etag": "e0991d5939d637d652d37b7575956f2f"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Session 1 - Claude 101/2_MESA_Lecture 1_Build Prompt.pdf",
+      "size": 3247846,
+      "last_modified": "2026-10-20T05:56:29Z",
+      "etag": "e0991d5939d637d652d37b7575956f2f"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Session 1 - Claude 101/3_MESA_Lecture 1_Build Prompt.pdf",
+      "size": 3247846,
+      "last_modified": "2026-10-20T05:56:38Z",
+      "etag": "e0991d5939d637d652d37b7575956f2f"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Session 1 - Claude 101/4_MESA_Lecture 1_Build Prompt.pdf",
+      "size": 3247846,
+      "last_modified": "2026-10-20T05:56:47Z",
+      "etag": "e0991d5939d637d652d37b7575956f2f"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Session 1 - Claude 101/MESA Pre-Read_ GitHub Account Setup.pdf",
+      "size": 795219,
+      "last_modified": "2026-10-20T05:56:03Z",
+      "etag": "b0495cae590ba9df5d6ff3d553b76265"
+    },
+    {
+      "key": "Term 1/AI and its Application/Mihirr's Resources/Session 1 - Claude 101/MESA_Lecture 1_Build Prompt.pdf",
+      "size": 3247846,
+      "last_modified": "2026-10-20T05:56:11Z",
+      "etag": "e0991d5939d637d652d37b7575956f2f"
+    },
+    {
+      "key": "Term 1/AI and its Application/Quiz tool/Quiz link.note.json",
+      "size": 602,
+      "last_modified": "2026-10-20T06:00:15Z",
+      "etag": "d7ffb9c85d6ce57691980839a1d7fb6a"
+    },
+    {
+      "key": "Term 1/Build Your Own Business (BYOB)/Resources/Other files/BYOB B2B PG SLE 2026.note.json",
+      "size": 563,
+      "last_modified": "2026-10-20T06:04:53Z",
+      "etag": "524d81d0e9f80e28e6572a058dae20eb"
+    },
+    {
+      "key": "Term 1/Build Your Own Business (BYOB)/Resources/Session 2 — Product Discovery/Product Selection workshop.pdf",
+      "size": 12236240,
+      "last_modified": "2026-10-20T06:04:20Z",
+      "etag": "48f791114c09b72d6cab0766f26fd287"
+    },
+    {
+      "key": "Term 1/Build Your Own Business (BYOB)/Resources/Session 3 — Supplier Selection/Supply chain workshop 2.pdf",
+      "size": 5124946,
+      "last_modified": "2026-10-20T06:04:39Z",
+      "etag": "e17a8d0a4dd3dd539ad86bc29a77c494"
+    },
+    {
+      "key": "Term 1/Build Your Own Business (BYOB)/Resources/Session 4 — How to Pitch/BYOB PGP C4 - Google Slides.pdf",
+      "size": 920115,
+      "last_modified": "2026-10-20T06:04:47Z",
+      "etag": "0c95ca9bfbfba03e7613805602757095"
+    },
+    {
+      "key": "Term 1/Build Your Own Business (BYOB)/Resources/Session 6 — First 10 Customers + B2B/BYOB B2B PG SLE 2026 - Google Slides.pdf",
+      "size": 2250690,
+      "last_modified": "2026-10-20T06:04:32Z",
+      "etag": "7f894370691a451402a46459fb2cd264"
+    },
+    {
+      "key": "Term 1/Business Frameworks/Resources/Practice Test Question Paper/Business Frameworks - Mid-Term .docx.pdf",
+      "size": 122259,
+      "last_modified": "2026-10-20T06:06:12Z",
+      "etag": "9e4e53e238f900c41d75161f9b446c41"
+    },
+    {
+      "key": "Term 1/Business Frameworks/Resources/Session 1/C4 _ Business Frameworks_ Session 1.pdf",
+      "size": 990111,
+      "last_modified": "2026-10-20T06:05:06Z",
+      "etag": "4aa4be37e32a3d4ae3587b9e1632cfe7"
+    },
+    {
+      "key": "Term 1/Business Frameworks/Resources/Session 2/C4_Intro to Business Frameworks - Session 2.pdf",
+      "size": 1041171,
+      "last_modified": "2026-10-20T06:05:12Z",
+      "etag": "b3db65cfe84c44eaef071474a2fafae1"
+    },
+    {
+      "key": "Term 1/Business Frameworks/Resources/Session 3/C4_Intro to Business Frameworks - Session 3.pdf",
+      "size": 989709,
+      "last_modified": "2026-10-20T06:05:19Z",
+      "etag": "a8896d048197a517efe74007126b13e4"
+    },
+    {
+      "key": "Term 1/Business Frameworks/Resources/Session 4/C4_Intro to Business Frameworks - Session 4.pdf",
+      "size": 1000226,
+      "last_modified": "2026-10-20T06:05:26Z",
+      "etag": "9f29efff4396a20ae1611c296ba6b097"
+    },
+    {
+      "key": "Term 1/Business Frameworks/Resources/Session 5/C4_Intro to Business Frameworks - Session 5.pdf",
+      "size": 999864,
+      "last_modified": "2026-10-20T06:05:33Z",
+      "etag": "fbeb548a947f713aa426b6b358305251"
+    },
+    {
+      "key": "Term 1/Business Frameworks/Resources/Session 6/C4_Intro to Business Frameworks - Session 6.pdf",
+      "size": 993453,
+      "last_modified": "2026-10-20T06:05:40Z",
+      "etag": "7a051cbde8ee8e5d08e6f286de1a70f0"
+    },
+    {
+      "key": "Term 1/Business Frameworks/Resources/Session 7/C4_Intro to Business Frameworks - Session 7.pdf",
+      "size": 976383,
+      "last_modified": "2026-10-20T06:05:47Z",
+      "etag": "ae865340551fa982f2bcca32b08433df"
+    },
+    {
+      "key": "Term 1/Business Frameworks/Resources/Session 8 additional cases/Disintermediation - UC Case.pdf",
+      "size": 86268,
+      "last_modified": "2026-10-20T06:06:05Z",
+      "etag": "ab50cc99cb9e018bb17283cb0df77e30"
+    },
+    {
+      "key": "Term 1/Business Frameworks/Resources/Session 8 additional cases/Urban Company - It takes two to Tango.pdf",
+      "size": 94084,
+      "last_modified": "2026-10-20T06:06:01Z",
+      "etag": "6692d506781d1b3501830c5f4429c3df"
+    },
+    {
+      "key": "Term 1/Business Frameworks/Resources/Session 8/C4_Intro to Business Frameworks - Session 8.pdf",
+      "size": 1081681,
+      "last_modified": "2026-10-20T06:05:54Z",
+      "etag": "b76e4e387ef8b0571bc79fd32eae25d8"
+    },
+    {
+      "key": "Term 1/Business Reader/Pre-Reads/Other files/Business Reader Session 5 Pre-Read.pdf",
+      "size": 51627,
+      "last_modified": "2026-10-20T05:46:03Z",
+      "etag": "db935a49516c1ce43c0f207318af53cb"
+    },
+    {
+      "key": "Term 1/Business Reader/Resources/Assessment 1 & 2- Answer Keys/Business Reader Assessment 1 Answer Key.pdf",
+      "size": 716128,
+      "last_modified": "2026-10-20T05:47:44Z",
+      "etag": "af51df6f20a0f79033fa45de4c780758"
+    },
+    {
+      "key": "Term 1/Business Reader/Resources/Assessment 1 & 2- Answer Keys/Business Reader Assessment 2 Answer Key.pdf",
+      "size": 475014,
+      "last_modified": "2026-10-20T05:47:37Z",
+      "etag": "8a0284501307d3f12f7f57d54e670acd"
+    },
+    {
+      "key": "Term 1/Business Reader/Resources/Session 1/Business Reader Session 1 PPT.pdf",
+      "size": 2203251,
+      "last_modified": "2026-10-20T05:46:25Z",
+      "etag": "d51ca0e4f7fa119aa6bc1117e8b4fa9b"
+    },
+    {
+      "key": "Term 1/Business Reader/Resources/Session 1/Session 1_Zepto IPO Pause.pdf",
+      "size": 712487,
+      "last_modified": "2026-10-20T05:46:18Z",
+      "etag": "68fa38fef9db41569c42cf36a72ee1e7"
+    },
+    {
+      "key": "Term 1/Business Reader/Resources/Session 2/Session 2 - Class Article.pdf",
+      "size": 59994,
+      "last_modified": "2026-10-20T05:46:35Z",
+      "etag": "5902d0a8b538ae4fe576ded32b2183f0"
+    },
+    {
+      "key": "Term 1/Business Reader/Resources/Session 3/Business Reader Session 3 Deck.pdf",
+      "size": 347309,
+      "last_modified": "2026-10-20T05:46:45Z",
+      "etag": "ac3cd029c9b5482a84fb3dc844da24f7"
+    },
+    {
+      "key": "Term 1/Business Reader/Resources/Session 4/Business Reader Session 4 Deck.pdf",
+      "size": 3684427,
+      "last_modified": "2026-10-20T05:46:56Z",
+      "etag": "10a8e6c8021509275140f8874bb84d14"
+    },
+    {
+      "key": "Term 1/Business Reader/Resources/Session 5/Business Reader Session 5 Deck.pdf",
+      "size": 361902,
+      "last_modified": "2026-10-20T05:47:06Z",
+      "etag": "ae9349b9aaacb50d948dabc9a1a0168f"
+    },
+    {
+      "key": "Term 1/Business Reader/Resources/Session 6/Business Reader Session 6 Deck.pdf",
+      "size": 643964,
+      "last_modified": "2026-10-20T05:47:16Z",
+      "etag": "65ec0b3b425c9f98139673c9dd3dfea5"
+    },
+    {
+      "key": "Term 1/Business Reader/Resources/Session 7/Business Reader Session 7 Deck.pdf",
+      "size": 1261712,
+      "last_modified": "2026-10-20T05:47:26Z",
+      "etag": "2cb86c53a355b4fcec4936640306abe0"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Quiz code/Quiz code.note.json",
+      "size": 662,
+      "last_modified": "2026-10-20T06:08:10Z",
+      "etag": "3f5d2349a3e0b1f37299e23a2a406daf"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Answer Key (Set A and Set B)/Answer Key- Set A- CMS.pdf",
+      "size": 1954159,
+      "last_modified": "2026-10-20T06:07:59Z",
+      "etag": "60c51537d50e6affe41e4e1f2f946080"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Answer Key (Set A and Set B)/C4_T1_CMS- Mid Term PG 27 Set B.xlsx - PG MCQ.pdf",
+      "size": 67258,
+      "last_modified": "2026-10-20T06:08:04Z",
+      "etag": "012f2f006e039084b3dd5470f77f3cb4"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Decks with Comments (Reshared)/S2 Mkt101_Mesa PG26 (2).pptx",
+      "size": 7433593,
+      "last_modified": "2026-10-20T06:30:18Z",
+      "etag": "68792a18101108053d3e104c459466c8"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Decks with Comments (Reshared)/S4 Mkt 101_Mesa PG26 (2).pptx",
+      "size": 20971486,
+      "last_modified": "2026-10-20T06:30:27Z",
+      "etag": "b4f85d752ec18d1451c59f178c43542b"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Decks with Comments (Reshared)/S5 Mkt 101_Mesa (2).pptx",
+      "size": 12517522,
+      "last_modified": "2026-10-20T06:30:35Z",
+      "etag": "6c8810f09e21429f31d33579f472ec7b"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Decks with Comments (Reshared)/Session 1.pptx",
+      "size": 20118911,
+      "last_modified": "2026-10-20T06:31:22Z",
+      "etag": "0cd54be91189a9c1acd3cbf8a7c89352"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Decks with Comments (Reshared)/Session 3.pptx",
+      "size": 20971486,
+      "last_modified": "2026-10-20T06:31:33Z",
+      "etag": "b4f85d752ec18d1451c59f178c43542b"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Decks with Comments (Reshared)/Session 6.pptx",
+      "size": 35316392,
+      "last_modified": "2026-10-20T06:31:47Z",
+      "etag": "2234dba74675a8033b3d71a80f60f474"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Session 1/Session 1 Deck.note.json",
+      "size": 707,
+      "last_modified": "2026-10-20T06:06:27Z",
+      "etag": "23bedd7cc384d5347f5d244326841afe"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Session 2/Session 2 Deck.note.json",
+      "size": 707,
+      "last_modified": "2026-10-20T06:06:32Z",
+      "etag": "447a67c4afc11a21dc98e7944e3cce98"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Session 3/Session 3 Deck.note.json",
+      "size": 707,
+      "last_modified": "2026-10-20T06:06:37Z",
+      "etag": "87cdc5393f429f9985b76c874d40059c"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Session 4/Session 4 Classwork- Needstates.note.json",
+      "size": 411,
+      "last_modified": "2026-10-20T06:06:47Z",
+      "etag": "8238785dd551d55227499070f405abd7"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Session 4/Session 4 Deck.note.json",
+      "size": 1001,
+      "last_modified": "2026-10-20T06:06:50Z",
+      "etag": "2e377ac16f073161a5c3ab175ee52aad"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Session 4/Universal Need State Framework_v2.docx",
+      "size": 23061,
+      "last_modified": "2026-10-20T06:06:43Z",
+      "etag": "428d366024b9c065086758e254e99bc0"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Session 5/Session 5 Deck.note.json",
+      "size": 748,
+      "last_modified": "2026-10-20T06:06:55Z",
+      "etag": "6a3a6a888ae85ff295fcca9a974d6e55"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Session 5/User TG Exercise PG 26.xlsx",
+      "size": 28726,
+      "last_modified": "2026-10-20T06:06:59Z",
+      "etag": "01f6a71a75941c0052e90d142574819a"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Session 6/Session 6.note.json",
+      "size": 698,
+      "last_modified": "2026-10-20T06:07:04Z",
+      "etag": "a81867447aee0c80f968c88924f75a2e"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Session 7/Session 7 Deck.note.json",
+      "size": 690,
+      "last_modified": "2026-10-20T06:07:38Z",
+      "etag": "51cc4649adb3c15ef6bb5f6f12c8fafe"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Session 8/Session 8.note.json",
+      "size": 680,
+      "last_modified": "2026-10-20T06:07:43Z",
+      "etag": "530ca8168e3dc697004bef934ee8fac3"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Session 9 and 10/Session Deck.note.json",
+      "size": 686,
+      "last_modified": "2026-10-20T06:07:53Z",
+      "etag": "2c85c6d4930e0eed162b323a4c2dbe7e"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Resources/Session 9/User TG Exercise.note.json",
+      "size": 710,
+      "last_modified": "2026-10-20T06:07:48Z",
+      "etag": "65be80f5eae43f65b28c63c6b696f0ef"
+    },
+    {
+      "key": "Term 1/Crafting Marketing Strategies/Sample Questions/Sample Questions.note.json",
+      "size": 676,
+      "last_modified": "2026-10-20T06:08:14Z",
+      "etag": "9497a794e6638dcbec8525e3ab7109c1"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Feedback Form/Feedback form for the course and the office hours.note.json",
+      "size": 694,
+      "last_modified": "2026-10-20T06:10:29Z",
+      "etag": "d91aed1ab58433cee23b335ef30451f5"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Pre-Reads/Other files/PreRead_Session 1_Rapido.pdf",
+      "size": 270238,
+      "last_modified": "2026-10-20T06:09:02Z",
+      "etag": "a2b23b3e6e45fa074f31caade438944b"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Pre-Reads/Other files/PreRead_Session 2_Zomato.pdf",
+      "size": 207378,
+      "last_modified": "2026-10-20T06:08:58Z",
+      "etag": "12095e718d88828466c13eaa3ceff1a4"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Pre-Reads/Other files/PreRead_Session 3_Nyka.pdf",
+      "size": 223442,
+      "last_modified": "2026-10-20T06:08:53Z",
+      "etag": "207738b48a1c3e12ca0e7ebd59d7fabd"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Pre-Reads/Other files/PreRead_Session 4_Meesho.pdf",
+      "size": 202452,
+      "last_modified": "2026-10-20T06:08:49Z",
+      "etag": "f1e48bcf5af25c5b80f256e209bdd2e0"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Pre-Reads/Other files/PreRead_Session 5_Urban Companu.pdf",
+      "size": 214999,
+      "last_modified": "2026-10-20T06:08:44Z",
+      "etag": "cf84c9b262daa91bf59d7308723c4870"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Pre-Reads/Other files/PreRead_Session 6_Zepto.pdf",
+      "size": 206667,
+      "last_modified": "2026-10-20T06:08:40Z",
+      "etag": "4c7bfcb70e5e508fd35b7c4fa6460adf"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Pre-Reads/Other files/PreRead_Session 7_Lenskart.pdf",
+      "size": 199011,
+      "last_modified": "2026-10-20T06:08:35Z",
+      "etag": "b2b047921f4cfde4441c62208364fe00"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Pre-Reads/Other files/PreRead_Session 8_Groww.pdf",
+      "size": 197502,
+      "last_modified": "2026-10-20T06:08:31Z",
+      "etag": "f8f1a7f1ea21a459b4a09dd3be1f8da9"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Pre-Reads/Other files/PreRead_Session 9_Swiggy Instamart.pdf",
+      "size": 204864,
+      "last_modified": "2026-10-20T06:08:26Z",
+      "etag": "7020138095cec7162291882b6f51fad0"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/Baseline Assessment Answer Key/Answer Key.note.json",
+      "size": 634,
+      "last_modified": "2026-10-20T06:09:35Z",
+      "etag": "c0cf454aed2faa05cb7afe490234daec"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/Cheat Sheet reference/Cheat Sheet reference.note.json",
+      "size": 656,
+      "last_modified": "2026-10-20T06:10:24Z",
+      "etag": "799e0e72a8676ecd940b0ccbd96f5f52"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/End Term Exam Practice/BMQ Answers.note.json",
+      "size": 962,
+      "last_modified": "2026-10-20T06:10:19Z",
+      "etag": "ea70ce3b0244cf23e70fdd2d2181c8f5"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/End Term Exam Practice/Fit Pulse.note.json",
+      "size": 960,
+      "last_modified": "2026-10-20T06:10:00Z",
+      "etag": "e5e229e37388d78851b1ee54fba8843c"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/End Term Exam Practice/Freshbox.note.json",
+      "size": 959,
+      "last_modified": "2026-10-20T06:10:03Z",
+      "etag": "9fd001d82fb1cc1e05132fc32e5538e7"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/End Term Exam Practice/Learn Loop.note.json",
+      "size": 961,
+      "last_modified": "2026-10-20T06:09:58Z",
+      "etag": "f949ae26272cf6e1c57c32597fe36ef7"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/End Term Exam Practice/LearnLoop Solution.note.json",
+      "size": 969,
+      "last_modified": "2026-10-20T06:10:09Z",
+      "etag": "9b9197a36f5bc4db2126f8e95a654ffe"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/End Term Exam Practice/Pageturn Solutions.note.json",
+      "size": 969,
+      "last_modified": "2026-10-20T06:10:14Z",
+      "etag": "df3a4f003b750c93affb1e3661c00472"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/End Term Exam Practice/Pageturn.note.json",
+      "size": 959,
+      "last_modified": "2026-10-20T06:10:06Z",
+      "etag": "6a7e081c7ff0fdd45aa970087cc1e1e6"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/End Term Exam Practice/Practice Paper 1.note.json",
+      "size": 967,
+      "last_modified": "2026-10-20T06:09:55Z",
+      "etag": "2a6a5d4cfb9275f01cedadbd3411f636"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/End Term Exam Practice/Solved_FitPulse.note.json",
+      "size": 966,
+      "last_modified": "2026-10-20T06:10:17Z",
+      "etag": "efe0d812aa50c31f32252d779b763e77"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/End Term Exam Practice/Solved_FreshBox.note.json",
+      "size": 966,
+      "last_modified": "2026-10-20T06:10:11Z",
+      "etag": "28b40ec48b08ab1f04b74540ded5c3c1"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/Mid Term Practice 2 (Session 7)/Answer Key.note.json",
+      "size": 675,
+      "last_modified": "2026-10-20T06:09:47Z",
+      "etag": "05d8e066f63a3a8bd2f5564360d7dfef"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/Mid Term Practice 2 (Session 7)/Practice workbook.note.json",
+      "size": 682,
+      "last_modified": "2026-10-20T06:09:50Z",
+      "etag": "837c824680495d60344e7f52414f3e2f"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/Mid-term Practice Workbook/Mid Term Practice Workbook Solution.note.json",
+      "size": 734,
+      "last_modified": "2026-10-20T06:09:40Z",
+      "etag": "9cb9df1cb720bc0275000f29ff247b83"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/Mid-term Practice Workbook/Mid Term Practice Workbook.note.json",
+      "size": 725,
+      "last_modified": "2026-10-20T06:09:42Z",
+      "etag": "e2640f8691871a63b6ca08bd0f62e051"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/Session wise Workbook/Session 1 Workbook.note.json",
+      "size": 459,
+      "last_modified": "2026-10-20T06:09:10Z",
+      "etag": "3fe85b9a997f38f3da5290a76198e084"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/Session wise Workbook/Session 2 Workbook.note.json",
+      "size": 1251,
+      "last_modified": "2026-10-20T06:09:13Z",
+      "etag": "e5ccbfda1d81c69a8df92edcbf847b74"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/Session wise Workbook/Session 3 Workbook.note.json",
+      "size": 1251,
+      "last_modified": "2026-10-20T06:09:16Z",
+      "etag": "1f9768bc0b9381c7d0d9cb69dd37e0e7"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/Session wise Workbook/Session 4 workbook.note.json",
+      "size": 1251,
+      "last_modified": "2026-10-20T06:09:27Z",
+      "etag": "be44741f84b13a262426112092ada4ce"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/Session wise Workbook/Session 5 Workbook.note.json",
+      "size": 1251,
+      "last_modified": "2026-10-20T06:09:19Z",
+      "etag": "8aa82862d9ab21547b1d702d70a21fe3"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/Session wise Workbook/Session 6 Workbook.note.json",
+      "size": 1251,
+      "last_modified": "2026-10-20T06:09:22Z",
+      "etag": "7db49205bf6f4109e8bbdc656efd5f53"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/Session wise Workbook/Session 7 Practice Workbook.note.json",
+      "size": 1260,
+      "last_modified": "2026-10-20T06:09:30Z",
+      "etag": "77bef27dfd9c70de71b2d834a90b3c3a"
+    },
+    {
+      "key": "Term 1/Data Driven Decision Making/Resources/Session wise Workbook/Session 7 Workbook.note.json",
+      "size": 1251,
+      "last_modified": "2026-10-20T06:09:24Z",
+      "etag": "0b4174ff0e18d8dbe193763251033c6c"
+    },
+    {
+      "key": "Term 1/Entrepreneurship 101/Decks/Module 8 - Building and Managing Teams v2.pdf",
+      "size": 822893,
+      "last_modified": "2026-10-20T06:11:13Z",
+      "etag": "718fbc5df83b93cea387be10ee50e35f"
+    },
+    {
+      "key": "Term 1/Entrepreneurship 101/Decks/Module7_GTM_Strategy_2 with simulation.pdf",
+      "size": 735238,
+      "last_modified": "2026-10-20T06:11:09Z",
+      "etag": "c4420adcbb7080bef08d8066cf9a7315"
+    },
+    {
+      "key": "Term 1/Entrepreneurship 101/Decks/Session 1.note.json",
+      "size": 881,
+      "last_modified": "2026-10-20T06:10:51Z",
+      "etag": "375a19dc3f04e6224a80868da496c983"
+    },
+    {
+      "key": "Term 1/Entrepreneurship 101/Decks/Session 2.note.json",
+      "size": 881,
+      "last_modified": "2026-10-20T06:10:54Z",
+      "etag": "300875eaf72cdfb48d88c5acb7d5c8c3"
+    },
+    {
+      "key": "Term 1/Entrepreneurship 101/Decks/Session 3.note.json",
+      "size": 881,
+      "last_modified": "2026-10-20T06:10:48Z",
+      "etag": "130f670106034b4154711f25dabc7386"
+    },
+    {
+      "key": "Term 1/Entrepreneurship 101/Decks/Session 4.note.json",
+      "size": 881,
+      "last_modified": "2026-10-20T06:10:46Z",
+      "etag": "a2c4215a51c4448aec2194f5970c8df8"
+    },
+    {
+      "key": "Term 1/Entrepreneurship 101/Decks/Session 5.note.json",
+      "size": 881,
+      "last_modified": "2026-10-20T06:10:56Z",
+      "etag": "1966d512d24985c09e4a90ad938bd221"
+    },
+    {
+      "key": "Term 1/Entrepreneurship 101/Decks/Session 6.note.json",
+      "size": 881,
+      "last_modified": "2026-10-20T06:10:59Z",
+      "etag": "aad508016812b9bbfb6ca4907e9945de"
+    },
+    {
+      "key": "Term 1/Entrepreneurship 101/Decks/Session 7.note.json",
+      "size": 881,
+      "last_modified": "2026-10-20T06:11:02Z",
+      "etag": "4a19b977a9edab37653acd5cb7f3eba3"
+    },
+    {
+      "key": "Term 1/Entrepreneurship 101/Decks/Session 8.note.json",
+      "size": 881,
+      "last_modified": "2026-10-20T06:11:05Z",
+      "etag": "1bee6c077b69bc97ef34e243c1bd0765"
+    },
+    {
+      "key": "Term 1/Entrepreneurship 101/Pre-Reads/Other files/BYOB_S1E1_BYOB_Sales_Update_Prep.pdf",
+      "size": 306926,
+      "last_modified": "2026-10-20T06:10:40Z",
+      "etag": "5645d4d860ec23215c6de16d25f473f2"
+    },
+    {
+      "key": "Term 1/Entrepreneurship 101/Quiz Link/Quiz Link.note.json",
+      "size": 590,
+      "last_modified": "2026-10-20T06:11:32Z",
+      "etag": "1874ef0bae4b30a2c8dfe359c9626329"
+    },
+    {
+      "key": "Term 1/Entrepreneurship 101/Resources/Session 1 Drive link for BYOB deck/Drive Link.note.json",
+      "size": 610,
+      "last_modified": "2026-10-20T06:11:20Z",
+      "etag": "868d550df279489170a675d32fe7ad44"
+    },
+    {
+      "key": "Term 1/Entrepreneurship 101/Resources/Session 2 Daily Plan/W0S2 - Post Exercise Daily_Plan_Simple.xlsx",
+      "size": 10423,
+      "last_modified": "2026-10-20T06:11:26Z",
+      "etag": "03cea41f42757f3bdccacc48b967d302"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Case Study/HBS Case- FoF.pdf.pdf",
+      "size": 888093,
+      "last_modified": "2026-10-20T06:13:32Z",
+      "etag": "1676b1f4e75aec6d0efd1f2b9b246bc1"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Practice Problems/FoF Practice Problem (Exam Format).note.json",
+      "size": 722,
+      "last_modified": "2026-10-20T06:13:20Z",
+      "etag": "3506022d42747132edf875e7bfd8932b"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Practice Problems/RNS7e BDC3.2 Kapoor_v3.3_onlyJE.note.json",
+      "size": 719,
+      "last_modified": "2026-10-20T06:13:23Z",
+      "etag": "6945749732d1762ccbe2659083e2118f"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Pre-Reads/Other files/Pre-Read FOF1.pdf",
+      "size": 49929198,
+      "last_modified": "2026-10-20T06:32:52Z",
+      "etag": "efdb99c3f96e9a55d37c03875cc81959"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Quiz Link/Quiz Link.note.json",
+      "size": 618,
+      "last_modified": "2026-10-20T06:13:27Z",
+      "etag": "ddc26d98d6538f96be957b796da76792"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Google Form for Questions-Feedback/Form- (Enter subject as “FOF1-2026).note.json",
+      "size": 692,
+      "last_modified": "2026-10-20T06:11:51Z",
+      "etag": "a43a052fd434110ef907f1a78f9058c4"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Resources links/Adani Green DuPont_v2.2.note.json",
+      "size": 854,
+      "last_modified": "2026-10-20T06:13:12Z",
+      "etag": "b98ce35b46628beeaa6c80028763acd0"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Resources links/DuPont example_v3.note.json",
+      "size": 848,
+      "last_modified": "2026-10-20T06:13:14Z",
+      "etag": "1f1eb56b2668593c0462551591732b27"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Resources links/Eternal Cash Flow example.note.json",
+      "size": 856,
+      "last_modified": "2026-10-20T06:13:09Z",
+      "etag": "81f5fc57de79009dd24f9dd3b754fd93"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Resources links/Ratio Analysis.note.json",
+      "size": 845,
+      "last_modified": "2026-10-20T06:13:03Z",
+      "etag": "752b59776e685f2520803ae9b23a2956"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Resources links/Statement of Cash Flows (Indirect method).note.json",
+      "size": 872,
+      "last_modified": "2026-10-20T06:13:06Z",
+      "etag": "0ec78215b86551405de81e308d7a3c7f"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 1 &2/Session 1-2.note.json",
+      "size": 657,
+      "last_modified": "2026-10-20T06:11:58Z",
+      "etag": "2e5180b201dec3b062107ceb62ddf5bc"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 10 - 12/Chapter 4.note.json",
+      "size": 669,
+      "last_modified": "2026-10-20T06:12:45Z",
+      "etag": "3117eeeade659184406b7736d9735194"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 10 - 12/Chapter 5.note.json",
+      "size": 669,
+      "last_modified": "2026-10-20T06:12:48Z",
+      "etag": "8c73d689a515fca68b78dc3dc0d55ee7"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 13/Assessing a Company's Fin Health.note.json",
+      "size": 769,
+      "last_modified": "2026-10-20T06:12:56Z",
+      "etag": "3e4d6da518a8148d9831db024b37ef09"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 13/Eternal Cash Flow Example.note.json",
+      "size": 762,
+      "last_modified": "2026-10-20T06:12:59Z",
+      "etag": "bc0ab5b93ebdb23cbd52c34d716d6e3c"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 13/Session 13 Deck.note.json",
+      "size": 752,
+      "last_modified": "2026-10-20T06:12:53Z",
+      "etag": "7b690c9f340cc593a3a94c98055f2174"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 3/Session 3.note.json",
+      "size": 755,
+      "last_modified": "2026-10-20T06:12:06Z",
+      "etag": "100c7c009f86202a22f91f458c364b25"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 3/WeWork Adjusted EBITDA.note.json",
+      "size": 247,
+      "last_modified": "2026-10-20T06:12:03Z",
+      "etag": "1e9c2942fc4a846e9b8ad08f97260a40"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 4/Session 4.note.json",
+      "size": 653,
+      "last_modified": "2026-10-20T06:12:11Z",
+      "etag": "7e072b824f43e79565e8a7f6259876e7"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 5 & 6/Pet Shop Excel.note.json",
+      "size": 700,
+      "last_modified": "2026-10-20T06:12:19Z",
+      "etag": "cdcfd7951b64db497eb2aeb291191f2d"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 5 & 6/Session 5 & 6.note.json",
+      "size": 699,
+      "last_modified": "2026-10-20T06:12:16Z",
+      "etag": "ec92ceadc0475236f24bcfb349684e69"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 7/DRL FY2021 SPL functional_v2.2.note.json",
+      "size": 728,
+      "last_modified": "2026-10-20T06:12:26Z",
+      "etag": "d0a54c49f8be09c08f753077251ad194"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 7/Session 7.note.json",
+      "size": 707,
+      "last_modified": "2026-10-20T06:12:24Z",
+      "etag": "86249b2cb2dc9a10ac78237330706839"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 8/RNS7e 6.11 6.12 (ex-SYD)_v2.1.note.json",
+      "size": 732,
+      "last_modified": "2026-10-20T06:12:34Z",
+      "etag": "b4594327fd297256f087f596f1335408"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 8/Session 8 Deck.note.json",
+      "size": 717,
+      "last_modified": "2026-10-20T06:12:31Z",
+      "etag": "9b2faaa0091d2228204545b9260a1dbe"
+    },
+    {
+      "key": "Term 1/Fundamentals of Finance/Resources/Session 9/Session 9 Deck.pptx",
+      "size": 5017122,
+      "last_modified": "2026-10-20T06:33:21Z",
+      "etag": "2e4e13397bae1c6d80dedee57322af0c"
+    },
+    {
+      "key": "Term 1/Orientation Week/Resources/Orientation Schedule/Hand Book.note.json",
+      "size": 289,
+      "last_modified": "2026-10-20T06:13:45Z",
+      "etag": "cab9f30b40065e673b2199c52e74ff23"
+    },
+    {
+      "key": "Term 1/Orientation Week/Resources/Orientation Schedule/Orientation Schedule.pdf",
+      "size": 336063,
+      "last_modified": "2026-10-20T06:13:41Z",
+      "etag": "21b05b78ca985fdc851f346442b9c255"
+    },
+    {
+      "key": "Term 1/Personal Branding/Resources/Session 1- Foundation & Positioning/Session 1 Deck_Foundation Positioning.pptx",
+      "size": 817161,
+      "last_modified": "2026-10-20T06:14:00Z",
+      "etag": "35abc3d856dbb594cd7f1719b4c41aaf"
+    },
+    {
+      "key": "Term 1/Personal Branding/Resources/Session 2 - Storytelling & Writing/1_Session 2_Storytelling & Writing.pptx",
+      "size": 5063863,
+      "last_modified": "2026-10-20T06:14:17Z",
+      "etag": "2640871bbaeeb2fb0961c41bbc6afc8a"
+    },
+    {
+      "key": "Term 1/Personal Branding/Resources/Session 2 - Storytelling & Writing/Personal Branding - Session 2 Prompts.docx",
+      "size": 1673379,
+      "last_modified": "2026-10-20T06:14:06Z",
+      "etag": "84632eb9892bffa288bd18947551c7d8"
+    },
+    {
+      "key": "Term 1/Personal Branding/Resources/Session 2 - Storytelling & Writing/Session 2_Storytelling & Writing.pptx",
+      "size": 5063863,
+      "last_modified": "2026-10-20T06:14:11Z",
+      "etag": "2640871bbaeeb2fb0961c41bbc6afc8a"
+    },
+    {
+      "key": "Term 1/Personal Branding/Resources/Session 3 - AI Mastery & Visual Craft/Session 3_AI Mastery & Visual Craft.pdf",
+      "size": 4695860,
+      "last_modified": "2026-10-20T06:14:25Z",
+      "etag": "051c97cdce7d651e19d648188d4dd232"
+    },
+    {
+      "key": "Term 1/Personal Branding/Resources/Session 4 - Leverage and Expansion/Session 4 - Leverage and Expansion.pdf",
+      "size": 31126523,
+      "last_modified": "2026-10-20T06:33:59Z",
+      "etag": "d10132bcb7a8d6c4d3cbbd4d67d1c1b2"
+    },
+    {
+      "key": "Term 1/Power of Communication/Pre-Reads/Other files/HBR Article - A Refresher on Storytelling 101.pdf",
+      "size": 492551,
+      "last_modified": "2026-10-20T06:14:56Z",
+      "etag": "dc6ff5ab84807d85dba8d9aeed0ddcf6"
+    },
+    {
+      "key": "Term 1/Power of Communication/Pre-Reads/Other files/HBR Article - Four Truths of a Storyteller.pdf",
+      "size": 153515,
+      "last_modified": "2026-10-20T06:15:09Z",
+      "etag": "aacc22dd4629aa558b8bea0978d56cf3"
+    },
+    {
+      "key": "Term 1/Power of Communication/Pre-Reads/Other files/HBR Article - Generative AI Can Help You Tailor Messaging.pdf",
+      "size": 742427,
+      "last_modified": "2026-10-20T06:15:22Z",
+      "etag": "5cdf0b19884e46c1d542a8260b3d8162"
+    },
+    {
+      "key": "Term 1/Power of Communication/Pre-Reads/Other files/HBR Article - How to Give Negative Feedback Over Email.pdf",
+      "size": 387121,
+      "last_modified": "2026-10-20T06:15:18Z",
+      "etag": "ed77135467019fbd2575634e483452e1"
+    },
+    {
+      "key": "Term 1/Power of Communication/Pre-Reads/Other files/HBR Article - The Art of Irresistible Email.pdf",
+      "size": 168859,
+      "last_modified": "2026-10-20T06:15:13Z",
+      "etag": "c6f1429235a1736c7d85f9c419945371"
+    },
+    {
+      "key": "Term 1/Power of Communication/Pre-Reads/Other files/HBR Article - Whats Your Story.pdf",
+      "size": 192942,
+      "last_modified": "2026-10-20T06:14:52Z",
+      "etag": "062c0adfb4cc899eed22d01303be4de2"
+    },
+    {
+      "key": "Term 1/Power of Communication/Pre-Reads/Other files/Pre-Read 1_Session 1 - HBR Article- How To Give A Killer Presentation.note.json",
+      "size": 317,
+      "last_modified": "2026-10-20T06:14:42Z",
+      "etag": "0e17ae31740508b83eeb70394eed6206"
+    },
+    {
+      "key": "Term 1/Power of Communication/Pre-Reads/Other files/Pre-Read 1_Session 2 - TED Talk- Golden Circle Speech by Simon Sinek.note.json",
+      "size": 1659,
+      "last_modified": "2026-10-20T06:14:48Z",
+      "etag": "d6e811f1985aed58402ff6f415b9aa40"
+    },
+    {
+      "key": "Term 1/Power of Communication/Pre-Reads/Other files/Pre-Read 1_Session 3 - The Magical Science of Storytelling.note.json",
+      "size": 1649,
+      "last_modified": "2026-10-20T06:14:59Z",
+      "etag": "113b8ada110cf7493f8bc035cfe58703"
+    },
+    {
+      "key": "Term 1/Power of Communication/Pre-Reads/Other files/Pre-Read 1_Session 4 - Greatest Sales Deck Ever.note.json",
+      "size": 1638,
+      "last_modified": "2026-10-20T06:15:02Z",
+      "etag": "0e45db2bf5da5f60f0fa1a4e57466f63"
+    },
+    {
+      "key": "Term 1/Power of Communication/Pre-Reads/Other files/Pre-Read 2_Session 1 - Presentation Zen Blog.note.json",
+      "size": 1635,
+      "last_modified": "2026-10-20T06:14:45Z",
+      "etag": "fb17c7420b0d44804c261e8dc63647dd"
+    },
+    {
+      "key": "Term 1/Power of Communication/Pre-Reads/Other files/Pre-Read 2_Session 4 - Best Stats You've Ever Seen.note.json",
+      "size": 1641,
+      "last_modified": "2026-10-20T06:15:05Z",
+      "etag": "cf8fe0b6e4656310a123f4a9eeb9c281"
+    },
+    {
+      "key": "Term 1/Power of Communication/Resources/28th September Session/In class exercise - Opening Paragraphs and coherence.pdf",
+      "size": 332615,
+      "last_modified": "2026-10-20T06:15:38Z",
+      "etag": "2e204f3b85a80323477ce6f890b34859"
+    },
+    {
+      "key": "Term 1/Power of Communication/Resources/Concepts and Frameworks for Verbal Communication/Reference concepts on verbal communication.pdf",
+      "size": 1645689,
+      "last_modified": "2026-10-20T06:15:32Z",
+      "etag": "b422a029c8ed58ec406838f04c30db72"
+    },
+    {
+      "key": "Term 1/Power of Communication/Resources/Notes for Written Communication/Written Comm Reference notes Mesa 2026.pdf",
+      "size": 459363,
+      "last_modified": "2026-10-20T06:15:45Z",
+      "etag": "debb83138adcad2fc46d8d5318b1d913"
+    },
+    {
+      "key": "Term 1/Power of Communication/Rubric/Other files/Power of Communication_Session 1 Rubric.pdf",
+      "size": 29777,
+      "last_modified": "2026-10-20T06:15:53Z",
+      "etag": "1014755a3ecac2f89b9442ea8780cec3"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Important Resources/Mesa_Case_Manual_Company_OnePagers.pdf",
+      "size": 263914,
+      "last_modified": "2026-10-20T06:16:49Z",
+      "etag": "fe80d44da3ad84fdfde22c4136bee553"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Pre-Reads/Other files/Session 1 Pre-Read.note.json",
+      "size": 367,
+      "last_modified": "2026-10-20T06:16:03Z",
+      "etag": "54c4da2e253e6c30648e2234a59f0180"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Pre-Reads/Other files/Session 10.note.json",
+      "size": 2310,
+      "last_modified": "2026-10-20T06:16:31Z",
+      "etag": "8d3112435b1af07aed66b34bb856cb25"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Pre-Reads/Other files/Session 12.note.json",
+      "size": 2310,
+      "last_modified": "2026-10-20T06:16:33Z",
+      "etag": "d483fc27559fad4a9f22ec829c0667c7"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Pre-Reads/Other files/Session 13.note.json",
+      "size": 2310,
+      "last_modified": "2026-10-20T06:16:36Z",
+      "etag": "a187cb31f876542b1ed2d8c1d60c75ad"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Pre-Reads/Other files/Session 2 Pre-Read.note.json",
+      "size": 367,
+      "last_modified": "2026-10-20T06:16:06Z",
+      "etag": "be72e9b5a21cb6bbf57431f1f77612e0"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Pre-Reads/Other files/Session 3 Pre-Read.note.json",
+      "size": 367,
+      "last_modified": "2026-10-20T06:16:09Z",
+      "etag": "4b32298b0817b0f2e88389028459f28f"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Pre-Reads/Other files/Session 4 Pre-Read.note.json",
+      "size": 367,
+      "last_modified": "2026-10-20T06:16:12Z",
+      "etag": "d0d4fae1f87761dcc09c109985e7a8bc"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Pre-Reads/Other files/Session 5 Pre-Read.note.json",
+      "size": 367,
+      "last_modified": "2026-10-20T06:16:16Z",
+      "etag": "1914f4ce92ebf699a9018e17f954895c"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Pre-Reads/Other files/Session 6 Pre-Read.note.json",
+      "size": 347,
+      "last_modified": "2026-10-20T06:16:19Z",
+      "etag": "63256ebfe44388f86cdd85d5b01aec70"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Pre-Reads/Other files/Session 7 Pre-Read.note.json",
+      "size": 347,
+      "last_modified": "2026-10-20T06:16:22Z",
+      "etag": "ed4a2428b18baed3fa8af1c71f3d4b69"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Pre-Reads/Other files/Session 8 Pre-Read.note.json",
+      "size": 2318,
+      "last_modified": "2026-10-20T06:16:25Z",
+      "etag": "831c46963133d8c6fff4d038b9fc94e8"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Pre-Reads/Other files/Session 9 Pre-Read.note.json",
+      "size": 2318,
+      "last_modified": "2026-10-20T06:16:28Z",
+      "etag": "2fed194305d874f2b906b8d6387f2ce5"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Quiz Code/Quiz Code.note.json",
+      "size": 435,
+      "last_modified": "2026-10-20T06:16:42Z",
+      "etag": "1c6d7f208d51479d9cceda7337ec1194"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Other files/Session 11 Funnel Diagnostic.note.json",
+      "size": 706,
+      "last_modified": "2026-10-20T06:39:07Z",
+      "etag": "b4193ecdd5f5d9150434bdfb579dbd54"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Other files/Session 11 Simulation.note.json",
+      "size": 699,
+      "last_modified": "2026-10-20T06:39:03Z",
+      "etag": "c195a25a7761e5edee8be8e9f11a9bc6"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 1/JBTD Framework.note.json",
+      "size": 343,
+      "last_modified": "2026-10-20T06:35:00Z",
+      "etag": "6a1305ea0dbcfc6f24b407d9c7b1f8ab"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 1/PG_Session_1_SIMULATION.docx",
+      "size": 15072,
+      "last_modified": "2026-10-20T06:35:23Z",
+      "etag": "096cc50b6e34ee7643c706b5a15fb700"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 1/Session 1 Deck.note.json",
+      "size": 389,
+      "last_modified": "2026-10-20T06:35:18Z",
+      "etag": "bbbbf221b5902709c69e704bd803f223"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 11/Session 11.note.json",
+      "size": 625,
+      "last_modified": "2026-10-20T06:38:50Z",
+      "etag": "aad3507f656bae4e5d29b57a42202f3a"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 13/Session 13 Simulation.note.json",
+      "size": 647,
+      "last_modified": "2026-10-20T06:38:56Z",
+      "etag": "35bf9a4b04fd538be743a494e688588d"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 2/PG_Session_2_SIMULATION.docx",
+      "size": 16229,
+      "last_modified": "2026-10-20T06:36:06Z",
+      "etag": "755f5370c93225e887d2b9bb0bf8108e"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 2/Personas.note.json",
+      "size": 291,
+      "last_modified": "2026-10-20T06:35:43Z",
+      "etag": "f59f5324a76ff0202f700f1475727a9a"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 2/Session 2 Deck.note.json",
+      "size": 379,
+      "last_modified": "2026-10-20T06:36:02Z",
+      "etag": "5b99e08195b64312595dfc7a2cc75ab1"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 3/1_Session 3.note.json",
+      "size": 349,
+      "last_modified": "2026-10-20T06:36:46Z",
+      "etag": "5932af134580124a0b1c77817bdcf615"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 3/PG_Session_3_SIMULATION.docx",
+      "size": 18553,
+      "last_modified": "2026-10-20T06:36:50Z",
+      "etag": "992a2e5795e105b6c4fa5ad1d92676ac"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 3/Session 3.note.json",
+      "size": 349,
+      "last_modified": "2026-10-20T06:36:27Z",
+      "etag": "5932af134580124a0b1c77817bdcf615"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 4/PG_Session_4_SIMULATION.docx",
+      "size": 16594,
+      "last_modified": "2026-10-20T06:37:15Z",
+      "etag": "67e1cab8c0f2d959a1ddab8e8f2d8ccb"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 4/Session 4.note.json",
+      "size": 359,
+      "last_modified": "2026-10-20T06:37:11Z",
+      "etag": "53ccb7202a0b4e35b9186a8787ff4efd"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 5/Session 5.note.json",
+      "size": 357,
+      "last_modified": "2026-10-20T06:37:36Z",
+      "etag": "49e420bd79fcae06fb99ba6255de6469"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 5/Simulation Session 5.note.json",
+      "size": 379,
+      "last_modified": "2026-10-20T06:37:54Z",
+      "etag": "cbfd54fc671c23915675a8cab33379b5"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 6/Session 6.note.json",
+      "size": 329,
+      "last_modified": "2026-10-20T06:38:15Z",
+      "etag": "77cf62d53443c06327da51f27c174bcb"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 7/Session 7.note.json",
+      "size": 641,
+      "last_modified": "2026-10-20T06:38:22Z",
+      "etag": "b06a9c5fc26a6dc5b769ed02b966e5ad"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 8/1_Session 8.note.json",
+      "size": 717,
+      "last_modified": "2026-10-20T06:38:37Z",
+      "etag": "c9b83ce7d11f44dc90e53bb3f872f94d"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 8/Session 8.note.json",
+      "size": 717,
+      "last_modified": "2026-10-20T06:38:32Z",
+      "etag": "c9b83ce7d11f44dc90e53bb3f872f94d"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 8/Simulation Session 8.note.json",
+      "size": 728,
+      "last_modified": "2026-10-20T06:38:28Z",
+      "etag": "ee3d6a71d3ef7dd178222bd3eb737490"
+    },
+    {
+      "key": "Term 1/The Art of Selling/Resources/Session 9/Session 9 Simulation.note.json",
+      "size": 663,
+      "last_modified": "2026-10-20T06:38:43Z",
+      "etag": "c47aeab20442cff38e5a060b89b0aa02"
+    },
+    {
+      "key": "Term 2/Business Metrics and Mindset/Post Reads/Costco_Case_Study.pdf",
+      "size": 431538,
+      "last_modified": "2026-10-20T06:17:26Z",
+      "etag": "f7615183800f7654224bd3a1b81af631"
+    },
+    {
+      "key": "Term 2/Business Metrics and Mindset/Quiz Code/Quiz Tool.note.json",
+      "size": 594,
+      "last_modified": "2026-10-20T06:17:31Z",
+      "etag": "6bb92b0a50863d5029664eadd4983620"
+    },
+    {
+      "key": "Term 2/Business Metrics and Mindset/Resources/Session 1/Session 1 Deck.note.json",
+      "size": 639,
+      "last_modified": "2026-10-20T06:17:15Z",
+      "etag": "c4dd51bcbf22f5a5081672b931371c34"
+    },
+    {
+      "key": "Term 2/Business Metrics and Mindset/Resources/Session 2/Session 2.note.json",
+      "size": 629,
+      "last_modified": "2026-10-20T06:17:20Z",
+      "etag": "a437052136491cd4a66a15c192ec4c27"
+    },
+    {
+      "key": "Term 2/Data 102/Pre-Reads/Other files/Pre-read 1.pdf",
+      "size": 83521,
+      "last_modified": "2026-10-20T06:17:40Z",
+      "etag": "c8d6cddc53712aa7c3bcb4c6fe2ab987"
+    },
+    {
+      "key": "Term 2/Data 102/Pre-Reads/Other files/Pre-read 2.pdf",
+      "size": 92066,
+      "last_modified": "2026-10-20T06:17:45Z",
+      "etag": "ee6c7df2950836ef84fe964c421096dd"
+    },
+    {
+      "key": "Term 2/Operations and Supply Chain/Pre-Reads/Other files/Mesa_PGP Operations & Supply Chain_Pre Read Guide.pdf",
+      "size": 255819,
+      "last_modified": "2026-10-20T06:18:19Z",
+      "etag": "df574084731007d3b825df33ab9ed440"
+    },
+    {
+      "key": "_meta/test.txt",
+      "size": 20,
+      "last_modified": "2026-10-20T05:42:43Z",
+      "etag": "416b2e3596c8c28fa032d4a5b937e258"
+    },
+    {
+      "key": "_meta/test2.pdf",
+      "size": 59994,
+      "last_modified": "2026-10-20T05:45:27Z",
+      "etag": "5902d0a8b538ae4fe576ded32b2183f0"
+    }
+  ],
+  "prefix": ""
+}

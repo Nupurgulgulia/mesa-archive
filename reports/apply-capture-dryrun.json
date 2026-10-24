@@ -1,0 +1,21 @@
+{
+  "generated": "2026-10-20T07:41:38.150Z",
+  "apply": false,
+  "notes": {
+    "unchanged": 142,
+    "written": [],
+    "would_write": []
+  },
+  "files": {
+    "matched": 120,
+    "missing": []
+  },
+  "errors": [],
+  "unmatched_objects": [
+    {
+      "key": "_meta/capture/nexus_manifest_2026-10-20.json",
+      "size": 200467,
+      "etag": "&#34;d92eaab51ad9a53744af0a341ce000e4&#34;"
+    }
+  ]
+}

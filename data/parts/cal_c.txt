@@ -1,0 +1,129 @@
+2026-11-02 09:30-11:00 First Principles Lab with Pranjal
+2026-11-02 11:30-13:00 Operations and Supply Chain Management with Prof. Brish
+2026-11-02 14:00-20:30 ILS/BSL Building Time
+2026-11-03 09:30-11:00 Operations and Supply Chain Management with Prof. Brish
+2026-11-03 11:30-13:00 AI with Mihirr Sose
+2026-11-03 16:00-17:30 AI Building Time with Mihirr
+2026-11-04 09:30-11:00 AI with Mihirr Sose
+2026-11-04 11:30-13:00 Specialisation Primer
+2026-11-04 14:00-20:00 ILS/BSL Building Time
+2026-11-05 09:30-11:00 B2B Sales: Signal to Signed with Parikshit
+2026-11-05 11:30-13:00 AI with Mihirr Sose
+2026-11-05 14:00-15:30 Startup Leader Session
+2026-11-05 16:00-17:30 Economics with Rounak
+2026-11-05 18:00-20:00 Life @ Mesa
+2026-11-06 09:30-11:00 SQL with Ziyaad
+2026-11-06 11:30-13:00 B2B Sales: Signal to Signed with Parikshit
+2026-11-06 14:00-20:00 ILS/BSL Building Time
+2026-11-07 09:30-20:00 Holiday
+2026-11-09 09:30-20:00 Diwali Vacation
+2026-11-10 09:30-20:00 Diwali Vacation
+2026-11-11 09:30-20:00 Diwali Vacation
+2026-11-12 09:30-11:00 Specialisation Primer
+2026-11-12 11:30-13:00 AI with Mihirr Sose
+2026-11-12 16:00-17:30 AI Building Time with Mihirr
+2026-11-13 09:30-11:00 SQL with Ziyaad
+2026-11-13 11:30-13:00 B2B Sales: Signal to Signed with Parikshit
+2026-11-13 14:00-15:30 ILS/BSL Building Time
+2026-11-13 16:00-17:30 Economics with Rounak
+2026-11-13 18:00-20:00 ILS/BSL Building Time
+2026-11-14 09:30-11:00 Business Metrics and Mindset with Meet Kotak
+2026-11-14 11:30-13:00 First Principles Lab with Pranjal
+2026-11-14 14:00-15:30 SQL with Ziyaad
+2026-11-14 16:00-17:30 Economics with Rounak
+2026-11-16 09:30-11:00 B2B Sales: Signal to Signed with Parikshit
+2026-11-16 11:30-13:00 Operations and Supply Chain Management with Prof. Brish
+2026-11-16 14:00-15:30 ILS/BSL Building Time
+2026-11-16 16:00-17:30 Economics with Rounak
+2026-11-16 18:00-20:00 ILS/BSL Building Time
+2026-11-17 09:30-11:00 Operations and Supply Chain Management with Prof. Brish
+2026-11-17 11:30-13:00 B2B Sales: Signal to Signed with Parikshit
+2026-11-17 16:00-17:30 AI Building Time with Mihirr
+2026-11-17 18:00-20:00 Life @ Mesa
+2026-11-18 09:30-11:00 B2B Sales: Signal to Signed with Parikshit
+2026-11-18 11:30-13:00 Business Metrics and Mindset with Meet Kotak
+2026-11-18 14:00-15:30 ILS/BSL Building Time
+2026-11-18 16:00-17:30 Economics with Rounak
+2026-11-18 18:00-20:00 ILS/BSL Building Time
+2026-11-19 11:30-13:00 Specialisation Primer
+2026-11-19 11:30-13:00 AI with Mihirr Sose
+2026-11-19 16:00-17:30 Economics with Rounak
+2026-11-20 09:30-11:00 AI Building Time with Mihirr
+2026-11-20 11:30-13:00 Data 102 with Vinay
+2026-11-20 14:00-15:30 Economics with Rounak
+2026-11-20 16:00-20:00 ILS/BSL Building Time
+2026-11-21 09:30-11:00 First Principles Lab with Pranjal
+2026-11-21 11:30-13:00 Economics with Rounak
+2026-11-21 14:00-15:30 Growth with Arshia
+2026-11-21 16:00-17:30 Economics with Rounak
+2026-11-23 09:30-20:00 Mid Term Exam
+2026-11-24 09:30-11:00 AI with Mihirr Sose
+2026-11-24 11:30-13:00 B2B Sales: Signal to Signed with Parikshit
+2026-11-24 14:00-15:30 AI Building Time with Mihirr
+2026-11-24 14:00-15:30 Business Metrics and Mindset with Meet Kotak
+2026-11-25 09:30-11:00 B2B Sales: Signal to Signed with Parikshit
+2026-11-25 11:30-13:00 AI with Mihirr Sose
+2026-11-25 14:00-15:30 Startup Leader Session
+2026-11-25 16:00-20:00 ILS/BSL Building Time
+2026-11-26 09:30-11:00 B2B Sales: Signal to Signed with Parikshit
+2026-11-26 11:30-13:00 Operations and Supply Chain Management with Prof. Brish
+2026-11-26 16:00-17:30 Data 102 with Vinay
+2026-11-27 09:30-11:00 Operations and Supply Chain Management with Prof. Brish
+2026-11-27 11:30-13:00 B2B Sales: Signal to Signed with Parikshit
+2026-11-27 14:00-15:30 ILS/BSL Building Time
+2026-11-27 16:00-17:30 Data 102 with Vinay
+2026-11-27 18:00-20:00 ILS/BSL Building Time
+2026-11-28 09:30-11:00 AI with Mihirr Sose
+2026-11-28 11:30-13:00 Data 102 with Vinay
+2026-11-28 14:00-15:30 Growth with Arshia
+2026-11-28 16:00-17:30 SQL with Ziyaad
+2026-11-30 09:30-11:00 AI with Mihirr Sose
+2026-11-30 11:30-13:00 Operations and Supply Chain Management with Prof. Brish
+2026-11-30 14:00-20:00 ILS/BSL Building Time
+2026-12-01 09:30-11:00 Operations and Supply Chain Management with Prof. Brish
+2026-12-01 11:30-13:00 AI with Mihirr Sose
+2026-12-01 16:00-17:30 AI Building Time with Mihirr
+2026-12-02 09:30-11:00 Business Metrics and Mindset Final Exam
+2026-12-02 14:00-15:30 Startup Leader Session
+2026-12-02 16:00-20:00 ILS/BSL Building Time
+2026-12-03 09:30-13:00 Specialisation Primer
+2026-12-03 14:00-20:00 Building Time
+2026-12-04 09:30-11:00 SQL with Ziyaad
+2026-12-04 11:30-13:00 Data 102 with Vinay
+2026-12-04 14:00-20:00 ILS/BSL Building Time
+2026-12-05 09:30-20:00 Demo Day
+2026-12-07 09:30-11:00 Circle of Competence with Varun Kashyap
+2026-12-07 11:30-13:00 Building Time
+2026-12-07 14:00-20:00 ILS/BSL Building Time
+2026-12-08 09:30-15:30 AI Building Time
+2026-12-08 16:00-17:30 Growth with Arshia
+2026-12-09 09:30-13:00 AI Building Time
+2026-12-09 14:00-15:30 Startup Leader Session
+2026-12-09 16:00-20:00 ILS/BSL Building Time
+2026-12-10 09:30-20:00 AI Hackathon
+2026-12-11 09:30-11:00 Data 102 with Vinay
+2026-12-11 14:00-15:30 ILS Building Time
+2026-12-11 16:00-17:30 Data 102 with Vinay
+2026-12-11 18:00-20:00 ILS Building Time
+2026-12-12 09:30-11:00 Growth with Arshia
+2026-12-12 11:30-13:00 SQL with Ziyaad
+2026-12-12 14:00-15:30 SQL with Ziyaad
+2026-12-12 16:00-17:30 Growth with Arshia
+2026-12-14 09:30-13:00 BSL Presentation (subject to startup availability)
+2026-12-14 14:00-20:00 ILS/BSL Building Time
+2026-12-15 09:30-20:00 BSL Presentation (subject to startup availability)
+2026-12-15 14:00-15:30 Mesa Startup Lab
+2026-12-16 09:30-20:00 BSL Presentation (subject to startup availability)
+2026-12-16 14:00-20:00 ILS/BSL Building Time
+2026-12-17 11:30-13:00 AI with Mihirr Sose
+2026-12-17 14:00-15:30 Growth with Arshia
+2026-12-18 09:30-11:00 Growth with Arshia
+2026-12-18 14:00-15:30 ILS/BSL Building Time
+2026-12-18 16:00-17:30 Data 102 with Vinay
+2026-12-18 18:00-20:00 ILS/BSL Building Time
+2026-12-19 09:30-11:00 First Principles Lab with Pranjal
+2026-12-19 11:30-13:00 Sector Spotlight
+2026-12-19 16:00-17:30 Growth with Arshia
+2026-12-21 14:00-18:00 Awards & Orientation
+2026-12-22 09:30-20:00 End Term Exam
+2026-12-23 09:30-20:00 End Term Exam
