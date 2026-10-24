@@ -16,7 +16,9 @@
     "ocr": "node scripts/ocr-docs.js",
     "export-links": "node scripts/export-links.js",
     "generate": "tsx scripts/generate-questions.ts",
-    "sync": "tsx scripts/sync.ts"
+    "sync": "tsx scripts/sync.ts",
+    "push-password": "node scripts/push-password.js",
+    "check-password": "node scripts/check-password.js"
   },
   "dependencies": {
     "@napi-rs/canvas": "^0.1.65",
