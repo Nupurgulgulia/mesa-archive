@@ -36,6 +36,7 @@ All secrets are in `.env.local` (gitignored, never commit it): `DATABASE_URL`, N
 | `npm run mirror` | Refresh the verified local copy in Documents\MESA-Archive |
 | `npm run verify-notes` | Check every note/link object for stale captures |
 | `node scripts/export-json.js` | Export the current database to `data/mesa_data_<date>.json` (same layout as the original `mesa_data.json`) |
+| `node scripts/smoke-test.js <url>` | Check a running copy (local or Vercel): pages, login refusal, file download, exam write |
 | `npm run sync -- status` | Recent Nexus sync runs (the sync itself runs as the scheduled task `mesa-nexus-sync`; see `docs/SYNC.md`) |
 
 ## Reports

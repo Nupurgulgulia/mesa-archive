@@ -1,6 +1,7 @@
 import fs from 'fs';
 import { Readable } from 'stream';
 import { NextResponse } from 'next/server';
+import { isSignedIn } from '@/lib/auth';
 import { one, PROFILE } from '@/lib/db';
 import { contentType, localPath, presignGet } from '@/lib/storage';
 
@@ -20,6 +21,7 @@ async function allowed(key: string): Promise<boolean> {
 }
 
 export async function GET(req: Request, { params }: { params: Promise<{ key: string[] }> }) {
+  if (!(await isSignedIn(req))) return new NextResponse('not signed in', { status: 401 });
   const key = (await params).key.map(decodeURIComponent).join('/');
   if (key.includes('..') || !(await allowed(key))) return NextResponse.json({ error: 'not found' }, { status: 404 });
 

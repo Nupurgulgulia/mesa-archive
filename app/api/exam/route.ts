@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { isSignedIn } from '@/lib/auth';
 import { one, q, PROFILE } from '@/lib/db';
 import { buildTopics, generateItems } from '@/lib/exam/generate';
 import { gradeAttempt, qualityFrom, schedule, type Item } from '@/lib/exam/grade';
@@ -10,6 +11,7 @@ export const maxDuration = 300;
 
 // One endpoint, dispatched on "action", so the client stays simple.
 export async function POST(req: Request) {
+  if (!(await isSignedIn(req))) return NextResponse.json({ error: 'not signed in' }, { status: 401 });
   const body = await req.json().catch(() => ({}));
   try {
     switch (body.action) {

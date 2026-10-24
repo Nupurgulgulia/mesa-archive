@@ -33,3 +33,9 @@ export async function verifySession(value: string | undefined): Promise<boolean>
   for (let i = 0; i < expected.length; i++) diff |= expected.charCodeAt(i) ^ parts[2].charCodeAt(i);
   return diff === 0;
 }
+
+// Second check inside route handlers, so a middleware bypass can't reach data or writes.
+export async function isSignedIn(req: Request): Promise<boolean> {
+  const m = (req.headers.get('cookie') || '').match(new RegExp(`(?:^|;\s*)${COOKIE}=([^;]+)`));
+  return verifySession(m ? decodeURIComponent(m[1]) : undefined).catch(() => false);
+}

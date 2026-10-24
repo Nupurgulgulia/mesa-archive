@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { isSignedIn } from '@/lib/auth';
 import { one, q, PROFILE } from '@/lib/db';
 import { AOS_COURSE_ID, DRILL_FEEDBACK_FORMAT, PERSONAS } from '@/lib/exam/aos';
 import { generate, llmConfigured, type Turn } from '@/lib/llm';
@@ -9,6 +10,7 @@ export const maxDuration = 120;
 type Msg = { role: 'student' | 'buyer' | 'feedback'; text: string; at: string };
 
 export async function POST(req: Request) {
+  if (!(await isSignedIn(req))) return NextResponse.json({ error: 'not signed in' }, { status: 401 });
   if (!llmConfigured()) return NextResponse.json({ error: 'AI is not configured (GEMINI_API_KEY).' }, { status: 400 });
   const body = await req.json().catch(() => ({}));
   try {
