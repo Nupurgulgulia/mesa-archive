@@ -40,3 +40,9 @@ All secrets are in `.env.local` (gitignored, never commit it): `DATABASE_URL`, N
 
 ## Reports
 `reports/step1-reconciliation.md`, `step2-database.md`, `step3-local-copy.md`, `step4-app.md` record what was done, verified, and what is still missing.
+
+## Online copy (Vercel)
+The app is also deployed to Vercel (project `mesa-archive`, linked in `.vercel/`). Redeploy with `npx vercel@65.2.0 deploy --prod`.
+- It uses a **restricted database account `mesa_app`** (read everything; insert/update only on the exam-progress tables). Its connection string is in `.env.vercel.local` (gitignored) and in Vercel's `DATABASE_URL`. If a migration adds a table the app writes to, grant it: `grant insert, update on <table> to mesa_app;` (new tables also need `grant select`).
+- Files are served from Neon storage with the read-only key (no local copy online). The sync and all scripts run only on this laptop.
+- After changing the password (`npm run set-password`) or rotating the Gemini key, update `APP_PASSWORD_HASH` / `SESSION_SECRET` / `GEMINI_API_KEY` in Vercel (Project → Settings → Environment Variables) and redeploy.
